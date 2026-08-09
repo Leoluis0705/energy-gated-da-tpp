@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       LiMg2O4
+_chemical_formula_sum              "Li1 Mg2 O4"
+_cell_length_a       4.109310207066355
+_cell_length_b       4.102692991997358
+_cell_length_c       5.4093708992004395
+_cell_angle_alpha    112.2181018893453
+_cell_angle_beta     112.29353962404333
+_cell_angle_gamma    89.99317245765533
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.6889434456825256  0.09080667048692703  0.13941600918769836  1.0000
+  Mg  Mg1       1.0  0.9401050209999083  0.841645896434784  0.6400250196456909  1.0000
+  Mg  Mg2       1.0  0.18939629197120664  0.5923610925674438  0.1406850814819336  1.0000
+  O   O1        1.0  0.42295581102371216  0.8242729306221009  0.6066960692405701  1.0000
+  O   O2        1.0  0.7157663702964783  0.6181033849716187  0.1939857304096221  1.0000
+  O   O3        1.0  0.1622697114944458  0.06487977504730225  0.0858931839466095  1.0000
+  O   O4        1.0  0.9554173350334166  0.35830795764923096  0.6737897396087646  1.0000

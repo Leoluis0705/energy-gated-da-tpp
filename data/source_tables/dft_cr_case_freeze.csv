@@ -1,0 +1,6 @@
+frozen_order,candidate_id,formula,alignn_formation_energy_eV_atom,gate_round,greedy_round,structure_matcher_cluster,selection_role,workflow_outcome
+1,job_092_Cr_fe_-1.075_n4_generated_crystals_cif__gen_3,Li1 Cr2 O4,-2.10696744919,8,6,SM_Cr_015,ALIGNN core-middle case,incomplete
+2,job_196_Cr_fe_-0.819_n4_generated_crystals_cif__gen_1,Li1 Cr2 O4,-2.10883450508,8,1,SM_Cr_018,ALIGNN core-middle case,completed
+3,job_234_Cr_fe_-1.123_n4_generated_crystals_cif__gen_3,Li1 Cr2 O4,-2.13946962357,13,6,SM_Cr_016,independent structure cluster,completed
+4,job_079_Cr_fe_-0.854_n4_generated_crystals_cif__gen_1,Li1 Cr2 O4,-2.13651251793,5,7,SM_Cr_013,independent structure cluster,completed
+5,job_126_Cr_fe_-0.901_n4_generated_crystals_cif__gen_0,Li1 Cr2 O4,-2.23909068108,7,1,SM_Cr_006,cross-cluster control,completed

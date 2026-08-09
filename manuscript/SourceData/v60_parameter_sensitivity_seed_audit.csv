@@ -1,0 +1,17 @@
+stage,config_id,seed_count,unique_sequences,independent_sequence_check
+threshold,m0_0p75_g0_0p40,5,5,PASS
+threshold,m0_0p75_g0_0p50,5,5,PASS
+threshold,m0_0p75_g0_0p60,5,5,PASS
+threshold,m0_1p00_g0_0p40,5,5,PASS
+threshold,m0_1p00_g0_0p50,5,5,PASS
+threshold,m0_1p00_g0_0p60,5,5,PASS
+threshold,m0_1p25_g0_0p40,5,5,PASS
+threshold,m0_1p25_g0_0p50,5,5,PASS
+threshold,m0_1p25_g0_0p60,5,5,PASS
+weight,alpha_0p05,5,5,PASS
+weight,alpha_0p20,5,5,PASS
+weight,baseline,5,5,PASS
+weight,beta_0p10,5,5,PASS
+weight,beta_0p40,5,5,PASS
+weight,gamma_0p05,5,5,PASS
+weight,gamma_0p20,5,5,PASS

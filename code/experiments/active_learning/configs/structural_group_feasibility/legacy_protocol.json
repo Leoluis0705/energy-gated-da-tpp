@@ -1,0 +1,26 @@
+{
+  "protocol_version": "egdatpp_structgate_feas_v1",
+  "phase": "structural_group_feasibility",
+  "dataset": "limo",
+  "allowed_seeds": [
+    111,
+    112,
+    113,
+    114,
+    115
+  ],
+  "allowed_methods": [
+    "predicted_target_greedy",
+    "energy_gated_da_tpp",
+    "gradient_norm_hybrid"
+  ],
+  "mc_passes": 30,
+  "M0": 0.75,
+  "G0": 0.5,
+  "alpha": 0.1,
+  "beta": 0.2,
+  "gamma": 0.05,
+  "group_key_mode": "element_system_current",
+  "group_key_map_relative_path": null,
+  "frozen": true
+}

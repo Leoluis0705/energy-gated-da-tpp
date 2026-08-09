@@ -1,0 +1,62 @@
+amendment_version: three_system_joint_target_reporting_v2
+amendment_date: "2026-07-28"
+amends_protocol: three_system_low_data_multifidelity_v1
+original_protocol_sha256: 077bf4f947b181a9cb349b72d03bf8c33489ac729a326f20fca57e9c90f6e800
+timing_disclosure:
+  made_after_v2_replay_was_reviewed: true
+  interpretation: post_hoc_reporting_hierarchy_amendment
+  reason: >
+    The scientific comparison was clarified as the number of candidates that
+    are jointly machine-learning-labeled as DFT-evaluable and inside the frozen
+    target interval, rather than DFT evaluability alone.
+
+unchanged:
+  candidate_pool: Cr_Mn_Mg_275
+  historical_dft_labels: 20
+  quantitative_dft_energies: 10
+  prospective_replay_candidates: 255
+  high_fidelity_interval_eV_atom: [-2.3, -1.5]
+  paired_seeds: [15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+  batch_size: 16
+  query_budget: 160
+  checkpoints: [16, 32, 64, 80, 160]
+  model_training_and_validation: unchanged
+  pseudo_oracle_draws: unchanged
+  group_gate_parameters: unchanged
+
+amended_reporting_hierarchy:
+  primary_endpoint:
+    source_column: simulated_interval_hit_count
+    definition: >
+      Count among queried candidates with pseudo_dft_evaluable equal to 1 and
+      pseudo_dft_energy_eV_atom inside the inclusive interval [-2.3, -1.5].
+    display_name: ML-labeled target-qualified count
+    evidence_tier: retrospective_ML_assisted_simulation
+  robustness_endpoint:
+    source_column: estimated_interval_hit_count
+    definition: >
+      Sum of predicted DFT-evaluability probability multiplied by predicted
+      interval-hit probability over queried candidates.
+    display_name: probability-weighted expected qualified yield
+  diagnostic_endpoints:
+    - estimated_DFT_evaluable_count
+    - simulated_DFT_evaluable_count
+    - unique_structure_clusters
+    - unique_compositions
+
+added_fairness_baseline:
+  method: joint_qualified_greedy
+  score: current_p_dft_evaluable_times_p_interval_hit
+  purpose: >
+    Directly optimize the same joint target used by the amended primary
+    endpoint. This prevents comparison only against Greedy policies that
+    optimize one component of the target.
+
+reporting_constraints:
+  - disclose_that_the_endpoint_hierarchy_was_amended_after_v2_results
+  - call_all_pseudo_oracle_counts_ML_labeled_not_observed_DFT
+  - retain_all_existing_baselines
+  - report_unfavorable_results
+  - do_not_call_the_interval_an_engineering_optimum
+  - do_not_call_the_replay_prospective_DFT_validation
+  - do_not_change_the_interval_or_seed_set_after_v3_results

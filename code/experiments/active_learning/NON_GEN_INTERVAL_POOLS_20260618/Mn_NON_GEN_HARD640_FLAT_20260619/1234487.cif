@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Sr4CaMn2Cu3(SO)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.99163923
+_cell_length_b   5.95646112
+_cell_length_c   9.88208364
+_cell_angle_alpha   95.70625881
+_cell_angle_beta   77.10180209
+_cell_angle_gamma   80.98717613
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr4CaMn2Cu3(SO)4
+_chemical_formula_sum   'Sr4 Ca1 Mn2 Cu3 S4 O4'
+_cell_volume   336.21325160
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.17018200  0.91449900  0.37744500  1
+  Sr  Sr1  1  0.98159900  0.53015600  0.13928100  1
+  Sr  Sr2  1  0.12686400  0.45183300  0.77823700  1
+  Sr  Sr3  1  0.67479400  0.00592900  0.77374500  1
+  Ca  Ca4  1  0.54415800  0.07405400  0.10953900  1
+  Mn  Mn5  1  0.55327600  0.54539500  0.97491800  1
+  Mn  Mn6  1  0.09540500  0.99763600  0.96560200  1
+  Cu  Cu7  1  0.58774500  0.28012300  0.40554400  1
+  Cu  Cu8  1  0.52666400  0.68842100  0.53228000  1
+  Cu  Cu9  1  0.89914800  0.42624000  0.48165700  1
+  S  S10  1  0.19878600  0.92981200  0.68490100  1
+  S  S11  1  0.66220500  0.48464800  0.70016000  1
+  S  S12  1  0.24995900  0.40101100  0.35144700  1
+  S  S13  1  0.68729500  0.89500400  0.36270900  1
+  O  O14  1  0.33159800  0.26567500  0.95997900  1
+  O  O15  1  0.82489700  0.77279600  0.96567600  1
+  O  O16  1  0.81238700  0.27359300  0.99276100  1
+  O  O17  1  0.28137100  0.81317400  0.09412000  1

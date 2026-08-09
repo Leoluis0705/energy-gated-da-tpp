@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       LiMn2O4
+_chemical_formula_sum              "Li1 Mn2 O4"
+_cell_length_a       2.9133952027200283
+_cell_length_b       5.290998758619703
+_cell_length_c       5.239603519439697
+_cell_angle_alpha    109.52488924764073
+_cell_angle_beta     89.99095250423744
+_cell_angle_gamma    89.92482261423055
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.5593944787979126  0.8345203399658203  0.5894746780395508  1.0000
+  Mn  Mn1       1.0  0.05964890867471695  0.8356038331985475  0.09022925794124607  1.0000
+  Mn  Mn2       1.0  0.5598113536834717  0.33496159315109253  0.08912865072488785  1.0000
+  O   O1        1.0  0.5595048069953918  0.637688398361206  0.8686872720718384  1.0000
+  O   O2        1.0  0.05981865152716637  0.578869640827179  0.28501445055007935  1.0000
+  O   O3        1.0  0.05980847030878067  0.09186473488807678  0.8964164853096008  1.0000
+  O   O4        1.0  0.5598700642585754  0.033225882798433304  0.31171679496765137  1.0000

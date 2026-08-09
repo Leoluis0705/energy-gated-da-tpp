@@ -1,0 +1,18 @@
+{
+  "seed_count": 10,
+  "mean_delta_AUTC_160_gate_minus_greedy": 0.025641025641025616,
+  "sd_delta_AUTC_160_gate_minus_greedy": 0.03251235316514571,
+  "bootstrap_seed": 20260808,
+  "bootstrap_resamples": 100000,
+  "bootstrap_95ci_low": 0.006666666666666626,
+  "bootstrap_95ci_high": 0.04487179487179484,
+  "wilcoxon_statistic": 11.0,
+  "wilcoxon_exact_two_sided_p": 0.10546875,
+  "paired_dz": 0.7886548694517018,
+  "gate_wins_AUTC_160": 6,
+  "greedy_wins_AUTC_160": 4,
+  "ties_AUTC_160": 0,
+  "mean_delta_AUTC_640_gate_minus_greedy": 0.010160256410256419,
+  "mean_delta_recovery_at_80_gate_minus_greedy": 2.6,
+  "mean_delta_recovery_at_160_gate_minus_greedy": 3.7
+}

@@ -1,0 +1,26 @@
+\begin{table}[H]
+\centering
+\caption{Descriptive DFT-evaluability endpoint on the single archived
+six-policy histories.}
+\label{tab:legacy-baselines}
+\scriptsize
+\begin{tabular}{lrrrrrrrr}
+\toprule
+& \multicolumn{2}{c}{80 queries} & \multicolumn{2}{c}{160 queries}
+& \multicolumn{2}{c}{240 queries} & \multicolumn{2}{c}{320 queries} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}
+Method & Target & Exp. eval. & Target & Exp. eval. & Target & Exp. eval. & Target & Exp. eval. \\
+\midrule
+Energy-Gated DA-TPP & 33 & 20.20 & 50 & 29.78 & 69 & 40.66 & 78 & 46.51 \\
+Explore & 29 & 17.32 & 44 & 26.05 & 60 & 35.44 & 74 & 43.60 \\
+Predicted-Target Greedy & 27 & 16.36 & 47 & 28.78 & 69 & 40.96 & 78 & 46.51 \\
+MC Dropout & 8 & 4.44 & 27 & 14.42 & 36 & 20.43 & 49 & 28.56 \\
+Modulus/Gradient-Norm & 10 & 5.54 & 20 & 9.22 & 39 & 18.83 & 58 & 32.40 \\
+Random Sampling & 6 & 4.29 & 18 & 11.30 & 26 & 15.57 & 39 & 22.73 \\
+\bottomrule
+\end{tabular}
+\tabnote{Each row is one historical trajectory and is provided only as
+descriptive context. Exp. eval. is the expected number of target candidates
+scored as DFT-evaluable by the acquisition-blind endpoint. These histories are not paired
+replicates of the formal Gate--Greedy archive.}
+\end{table}

@@ -1,0 +1,25 @@
+{
+  "G0": 0.5,
+  "M0": 0.75,
+  "allowed_methods": [
+    "interval_hit_greedy",
+    "energy_gated_da_tpp"
+  ],
+  "allowed_seeds": [
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "alpha": 0.1,
+  "beta": 0.2,
+  "dataset": "limo",
+  "frozen": true,
+  "gamma": 0.05,
+  "group_key_map_relative_path": null,
+  "group_key_mode": "element_system_current",
+  "mc_passes": 10,
+  "phase": "mc_dropout_sensitivity",
+  "protocol_version": "egdatpp_psfix_v1"
+}

@@ -1,0 +1,26 @@
+{
+  "protocol_version": "egdatpp_psfix_v1",
+  "phase": "interval_robustness",
+  "dataset": "limo",
+  "allowed_seeds": [101, 102, 103, 104, 105, 106, 107, 108, 109, 110],
+  "allowed_methods": [
+    "energy_gated_da_tpp",
+    "predicted_target_greedy",
+    "explore",
+    "mc_dropout",
+    "gradient_norm_hybrid",
+    "random_sampling",
+    "always_da_tpp",
+    "group_only_gate",
+    "margin_only_gate"
+  ],
+  "mc_passes": 30,
+  "M0": 0.75,
+  "G0": 0.50,
+  "alpha": 0.10,
+  "beta": 0.20,
+  "gamma": 0.05,
+  "group_key_mode": "element_system_current",
+  "group_key_map_relative_path": null,
+  "frozen": true
+}

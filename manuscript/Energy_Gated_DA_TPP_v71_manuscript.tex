@@ -1,0 +1,117 @@
+% CMC/TSP submission manuscript, v71 claim-calibrated language revision.
+\documentclass[cmc,article,submit,moreauthors,pdftex]{Definitions/tsp}
+\input{Definitions/package}
+\input{Definitions/unicode}
+\usepackage[OT1,OT2,T2A,T2B,T2C,T3,T5,T1]{fontenc}
+\usepackage[russian,english]{babel}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{amsmath,amssymb}
+\usepackage{array}
+\usepackage{needspace}
+\usepackage{longtable}
+\setlength{\headheight}{38.3pt}
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
+\setlength{\textfloatsep}{10pt plus 2pt minus 3pt}
+\setlength{\intextsep}{9pt plus 2pt minus 2pt}
+\makeatletter
+\setlength{\@fptop}{0pt}
+\setlength{\@fpsep}{10pt}
+\setlength{\@fpbot}{0pt plus 1fil}
+\makeatother
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\bottomfraction}{0.90}
+\renewcommand{\textfraction}{0.06}
+\renewcommand{\floatpagefraction}{0.75}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\newcolumntype{Z}{>{\raggedright\arraybackslash}X}
+\newcommand{\tabnote}[1]{\par\smallskip\noindent\begin{minipage}{\linewidth}\footnotesize\emph{Note}: #1\end{minipage}\par}
+\graphicspath{{Figures/}}
+
+\continuouspages{}
+\firstpage{1}
+\makeatletter
+\setcounter{page}{\@firstpage}
+\makeatother
+\pubvolume{0}
+\issuenum{0}
+\elocationid{0}
+\articlenumber{0}
+\pubyear{2026}
+\copyrightyear{2026}
+\datereceived{Day Month Year}
+\dateaccepted{Day Month Year}
+\dateonlinefirst{}
+\datepublished{Day Month Year}
+
+\Title{Energy-Gated DA-TPP: Batch Active Learning for Early Target Recovery in Generated Crystal Pools}
+\newcommand{\orcidauthorE}{0009-0003-3796-4444}
+\Author{Yueyang Zhang\textsuperscript{1,\#}, Jinxuan Liu\textsuperscript{1,\#}, Tianyu Li\textsuperscript{2}, Xiangxiru Xiong\textsuperscript{3}, Yingjie Zhang\orcidE{}\textsuperscript{2,*} and Baohua Tan\textsuperscript{4,5,6,*}}
+\AuthorCitation{Zhang Y, Liu J, Li T, Xiong X, Zhang Y, Tan B}
+\AuthorNames{Yueyang Zhang, Jinxuan Liu, Tianyu Li, Xiangxiru Xiong, Yingjie Zhang and Baohua Tan}
+\address{%
+\textsuperscript{1}Hubei University of Technology, No. 28 Nanli Road, Hongshan District, Wuhan, Hubei 430068, China
+
+\textsuperscript{2}Department of Applied Physics, The Hong Kong Polytechnic University, Hung Hom, Kowloon, Hong Kong, China
+
+\textsuperscript{3}Department of Mathematics and Information Technology, The Education University of Hong Kong, 10 Lo Ping Road, Tai Po, New Territories, Hong Kong, China
+
+\textsuperscript{4}School of Science (School of Chip Industry), Hubei University of Technology, Wuhan, 430068, China
+
+\textsuperscript{5}National ``111 Research Center'' Microelectronics and Integrated Circuits, Hubei University of Technology, Wuhan, 430068, China
+
+\textsuperscript{6}Department of Architecture and Built Environment, Faculty of Engineering, University of Nottingham, Nottingham, NG7 2RD, United Kingdom
+
+\textit{E-mail addresses:} 2411631131@hbut.edu.cn (Y. Zhang); 2511611209@hbut.edu.cn (J. Liu); tianyu.li@connect.polyu.hk (T. Li); s1165476@s.eduhk.hk (X. Xiong); yingjieyj.zhang@connect.polyu.hk (Y. Zhang); tbh@hbut.edu.cn (B. Tan)
+}
+\corres{Corresponding Authors: Yingjie Zhang. Email: yingjieyj.zhang@connect.polyu.hk; Baohua Tan. Email: tbh@hbut.edu.cn}
+\firstnote{These authors contributed equally to this work.}
+
+\abstract{Generated crystal pools often exceed the computational budgets
+available for first-principles validation, making effective early-stage
+prioritization essential. Exploitation-based acquisition efficiently identifies
+candidates with high predicted target probabilities, while batch-level chemical
+structure offers additional information for improving screening efficiency. We
+introduce Energy-Gated Diversity-Aware Target Probability Prioritization
+(Energy-Gated DA-TPP), an adaptive batch active-learning framework that
+integrates target probability, predictive uncertainty, representation-space
+diversity, and chemical-group coverage through energy-gated selection. Starting
+from a Predicted-Target Greedy batch, Gate evaluates score separation and group
+concentration, retaining well-resolved batches and activating diversity-aware
+reconstruction when diagnostic thresholds indicate redundancy. This design
+allocates diversity according to the evolving structure of the candidate front
+and improves the balance between target exploitation and batch coverage.
+Energy-Gated DA-TPP was evaluated on a MatterGen-derived Li--M--O spinel-like
+pool containing 640 candidates and 78 targets defined by a fixed ALIGNN
+formation-energy interval. Within the first 80 queries, Gate recovered 26
+targets compared with 19 for Greedy, a 36.8\% increase in early target recovery.
+The normalized area under the target-recovery curve through 160 queries
+increased from 0.2795 to 0.3205, while both policies recovered all 78 targets by
+320 queries. Ablation results linked the early-budget reordering primarily to
+group-triggered batch repair. An acquisition-blind DFT-evaluability model based
+on composition, structure, and CHGNet/MACE-MP descriptors achieved a nested
+leave-one-out ROC--AUC of 0.820 and estimated 16.63 evaluable targets for Gate
+versus 10.99 for Greedy at 80 queries. Four generated LiCr$_2$O$_4$ candidates
+also completed the prescribed PAW--PBE+$U$ relaxation--static workflow. These
+results show that adaptive gating can concentrate diversity correction on
+redundancy-prone batches, accelerating early target recovery while preserving
+final recall. Energy-Gated DA-TPP provides an efficient and auditable strategy
+for finite-budget screening of large generated-material pools.}
+\keyword{Active learning; generated crystals; batch acquisition; target recovery; conditional diversity; DFT feasibility}
+
+\begin{document}
+\input{manuscript_body_v71}
+
+\acknowledgement{We also acknowledge Hubei University of Technology and the National ``111 Research Center'' for Microelectronics and Integrated Circuits for providing research facilities, and the University of Nottingham for providing relevant research software.}
+\useofartificialintelligence{During the preparation of this work, the authors used OpenAI Codex to support language editing, LaTeX and reproducibility-package organization, figure-format checks, and pre-submission consistency checks. The authors reviewed and edited all affected material, verified the supporting data and references, and take full responsibility for the content of the article.}
+\funding{This work was supported in part by the China Scholarship Council; the Innovation and Entrepreneurship Program for College Students of the Ministry of Education of China (Grant No. 20250100164); the Key Research Project of the Xinjiang Autonomous Region--Joint Task Special Project between Provincial Department and Local Government, China (Grant No. 20261152731); and the Innovation and Entrepreneurship Program for College Students of the Education Department of Hubei Province, China (Grant No. 20240200145).}
+\authorcontributions{Yueyang Zhang and Jinxuan Liu contributed equally to conceptualization, methodology, software, validation, formal analysis, investigation, data curation, visualization, writing--original draft, and writing--review and editing. Tianyu Li: Validation, investigation, writing--review and editing. Xiangxiru Xiong: Validation, formal analysis, writing--review and editing. Yingjie Zhang: Validation, investigation, resources, writing--review and editing. Baohua Tan: Supervision, project administration, resources, funding acquisition, writing--review and editing. All authors reviewed the results and approved the final version of the manuscript.}
+\availabilityofdataandmaterials{The submission package contains the frozen histories, figure source data, DFT-evaluability protocol and scores, MLIP calibration outputs, DFT audit table, final candidate structures, and figure-rebuild scripts. These materials are also available from the corresponding author upon reasonable request.}
+\supplementary{The separate Supplementary Material contains additional protocol details, Figure~S1, Tables~S1--S14, candidate-level audits, and the reproducibility inventory in Supplementary Section~S17. The accompanying data-and-code package contains the cited source-data tables, figure-generation scripts, final candidate CIF files, environment specifications, and SHA-256 manifests.}
+\ethicsapproval{Not applicable.}
+\conflictsofinterest{The authors declare no conflicts of interest.}
+
+\input{references}
+\end{document}

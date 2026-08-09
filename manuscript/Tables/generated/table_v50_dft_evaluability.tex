@@ -1,0 +1,24 @@
+\begin{table}[!htbp]
+\centering
+\caption{Surrogate target recovery and the formal DFT-evaluability endpoint at the
+fixed query checkpoints.}
+\label{tab:evaluability-yield}
+\scriptsize
+\begin{tabular}{llrrrr}
+\toprule
+Queries & Method & Target hits & Expected evaluable & $e_i\geq0.50$ & Mean $e_i$ \\
+\midrule
+80  & Gate   & 26 & 16.63 & 20 & 0.64 \\
+    & Greedy & 19 & 10.99 & 12 & 0.58 \\
+160 & Gate   & 54 & 33.87 & 41 & 0.63 \\
+    & Greedy & 54 & 31.60 & 35 & 0.59 \\
+240 & Gate   & 67 & 39.93 & 46 & 0.60 \\
+    & Greedy & 69 & 40.96 & 47 & 0.59 \\
+320 & Gate   & 78 & 46.51 & 53 & 0.60 \\
+    & Greedy & 78 & 46.51 & 53 & 0.60 \\
+\bottomrule
+\end{tabular}
+\tabnote{Expected evaluable is $\sum z_i e_i$ over the targets already selected
+by the CGCNN policy. The acquisition-blind $e_i$ values are ML estimates and are
+not supplied to Gate or Greedy.}
+\end{table}

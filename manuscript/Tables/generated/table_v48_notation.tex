@@ -1,0 +1,19 @@
+\begin{table}[!htbp]
+\centering
+\caption{Notation and evidence layers used in the frozen-pool analysis.}
+\label{tab:notation}
+\scriptsize
+\begin{tabular}{@{}lll@{}}
+\toprule
+Symbol & Definition & Evidence status \\
+\midrule
+$\mathcal{C}$, $N$ & \pbox{0.53\textwidth}{Frozen candidate pool and its size ($N=640$)} & archived objects \\
+$y_i$, $z_i$ & \pbox{0.53\textwidth}{ALIGNN reference value and interval-membership label} & reference-table oracle \\
+$p_i$, $e_i$ & \pbox{0.53\textwidth}{CGCNN interval-hit probability and DFT-evaluability score} & ML estimates \\
+$d_i$ & \pbox{0.53\textwidth}{Strict completion label for a historical DFT attempt} & archived DFT record \\
+$\mathcal{B}_t$, $b$, $Q$ & \pbox{0.53\textwidth}{Round-$t$ batch, batch size 16, and query budget} & protocol \\
+$Y_a(q)$, $H_a(q)$ & \pbox{0.53\textwidth}{Recovered targets and DFT-evaluability endpoint sum} & history; ML endpoint \\
+$G_t$, $M_t$ & \pbox{0.53\textwidth}{Group concentration and standardized front margin} & gate diagnostics \\
+\bottomrule
+\end{tabular}
+\end{table}

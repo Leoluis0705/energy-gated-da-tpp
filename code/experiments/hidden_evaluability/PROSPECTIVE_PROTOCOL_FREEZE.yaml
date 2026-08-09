@@ -1,0 +1,131 @@
+{
+  "protocol_version": "prospective_multifidelity_v1",
+  "frozen": true,
+  "freeze_timestamp": "2026-07-27T20:06:05.2208855+08:00",
+  "source_git_commit": "3bcf598dfb0f71fd2393c9764a7e053fa07b1566",
+  "source_branch": "audit/pool-surrogate-dft-baseline-root-cause",
+  "execution_branch": "prospective-multifidelity-v1",
+  "manuscript_edits_allowed": false,
+  "pool": {
+    "source_name": "candidate_pool_master.csv",
+    "source_sha256": "7171701be18a7d391dfd58e15b12461fcb32f7db34395e6c785f7cfc6742ad1a",
+    "canonical_manifest_sha256": "ab2a3c5d68d5cb3a7f119ba5b09a6ed59603e52f5c87acac8b8e306383d76f57",
+    "candidate_count": 640,
+    "development_calibration_count": 20,
+    "prospective_count": 620,
+    "development_rule": "all candidates with any historical DFT attempt, including failed or incomplete attempts",
+    "performance_credit_for_development_candidates": false
+  },
+  "high_fidelity_bands_eV_per_atom": {
+    "primary": [-2.3, -1.5],
+    "sensitivity_lower": [-2.3, -1.8],
+    "sensitivity_upper": [-2.0, -1.5],
+    "interpretation": "pilot-derived DFT-accessible evaluation bands",
+    "not_claimed": [
+      "engineering optimality",
+      "synthesizability",
+      "thermodynamic stability"
+    ]
+  },
+  "primary_endpoint": {
+    "name": "HF-AUC",
+    "y": "cumulative unique DFT-qualified candidates",
+    "x": ["cumulative core-hours", "cumulative node-hours"]
+  },
+  "secondary_endpoints": [
+    "DFT completion rate",
+    "structural viability rate",
+    "primary and sensitivity band hits",
+    "time-to-first-qualified",
+    "unique relaxed-structure clusters",
+    "composition-stratified outcomes",
+    "total measured compute cost"
+  ],
+  "dft_qualified_requirements": [
+    "electronic convergence",
+    "ionic convergence",
+    "independent static completion",
+    "no structural collapse",
+    "not a duplicate qualified relaxed structure",
+    "formation energy inside the primary band"
+  ],
+  "mlip": {
+    "primary_model": "CHGNet",
+    "primary_required_version": "0.4.2",
+    "secondary_preferred_model": "MACE-MP",
+    "secondary_substitution_rule": "a documented independent universal materials potential with a frozen checkpoint; otherwise NO_GO",
+    "required_model_count": 2,
+    "optimizer": "ASE FIRE with cell relaxation",
+    "maximum_steps": 200,
+    "fmax_eV_per_angstrom": 0.1,
+    "collapse_rules": {
+      "maximum_absolute_volume_change_fraction": 0.5,
+      "minimum_interatomic_distance_angstrom": 0.8,
+      "unreadable_or_nonpositive_volume": true
+    },
+    "relaxed_duplicate_matcher": {
+      "ltol": 0.2,
+      "stol": 0.3,
+      "angle_tol_degrees": 5.0,
+      "primitive_cell": true,
+      "scale": true
+    }
+  },
+  "low_fidelity_comparison": {
+    "paired_seeds": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+    "batch_size": 16,
+    "query_budget": 320,
+    "checkpoints": [16, 32, 64, 80, 160, 240, 320],
+    "model_update_frequency": "after every batch",
+    "raw_and_composition_matched_reporting": true,
+    "composition_matching": "prospective-pool element proportions, integer quotas by largest remainder, method-specific within-composition rank",
+    "baselines": [
+      "random_sampling",
+      "predicted_target_greedy",
+      "mc_dropout_uncertainty_only",
+      "explore_core_set_diversity",
+      "modulus_gradient_norm_hybrid",
+      "composition_only",
+      "mlip_energy_greedy",
+      "group_gated_da_tpp"
+    ],
+    "ablations": [
+      "predicted_target_greedy",
+      "always_correction",
+      "group_only",
+      "margin_only",
+      "full_gate"
+    ],
+    "margin_claim_rule": "ablation only; no independent contribution claim"
+  },
+  "prospective_dft_pilot": {
+    "early_selection_horizon": 32,
+    "maximum_unique_candidates": 12,
+    "all_baselines_must_be_represented": true,
+    "shared_candidates_computed_once": true,
+    "selection_order": [
+      "maximize baseline coverage",
+      "earlier median selection query",
+      "composition match",
+      "lower estimated cost",
+      "lower structural complexity",
+      "lexical candidate_id"
+    ],
+    "submission_requires": [
+      "DFT server idle",
+      "all protocol checks PASS",
+      "cost estimate present and within cap",
+      "unique candidate count not above 12"
+    ],
+    "automatic_expansion_allowed": false
+  },
+  "stop_conditions": [
+    "pool source or canonical hash mismatch",
+    "candidate or label convention inconsistency",
+    "fewer than two frozen independent MLIP models",
+    "intended compute device busy",
+    "DFT server busy",
+    "unknown or excessive cost",
+    "baseline implementation identity unresolved"
+  ]
+}

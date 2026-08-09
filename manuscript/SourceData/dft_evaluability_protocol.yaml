@@ -1,0 +1,41 @@
+experiment_id: cgcnn_dft_evaluability_metric_v1
+status: frozen_acquisition_blind_evaluation
+acquisition:
+  source: archived_original_CGCNN_active_learning_histories
+  target_interval_eV_atom: [-2.18, -2.02]
+  permitted_inputs:
+    - CGCNN_target_interval_predictions
+    - CGCNN_interval_hit_probability
+    - CGCNN_uncertainty
+    - candidate_embedding
+    - composition_group_key
+  forbidden_inputs:
+    - DFT_evaluability_probability
+    - DFT_evaluability_label
+    - joint_target_and_DFT_score
+dft_evaluability_metric:
+  model: shallow_gradient_boosting
+  training_attempts: 20
+  positive_attempts: 10
+  leave_one_out_ROC_AUC: 0.820000
+  leave_one_out_balanced_accuracy: 0.700000
+  hard_label_threshold: 0.5
+endpoint:
+  primary: target_hits_scored_by_acquisition_blind_DFT_evaluability_metric
+  expected_yield: sum_DFT_evaluability_probability_over_target_hits
+  hard_ML_label_yield: count_probability_at_least_0.5_over_target_hits
+  observed_DFT_claim: false
+checkpoints: [80, 160, 240, 320]
+formal_comparison:
+  methods: [Energy-Gated DA-TPP, Predicted-Target Greedy]
+  stored_implementation_seeds: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+  independence_status: identical_within_method_through_query_240
+legacy_single_run_baselines:
+  methods:
+    - Energy-Gated DA-TPP
+    - Predicted-Target Greedy
+    - Explore
+    - Modulus / Gradient-Norm Hybrid
+    - MC Dropout
+    - Random Sampling
+  inferential_status: illustrative_only

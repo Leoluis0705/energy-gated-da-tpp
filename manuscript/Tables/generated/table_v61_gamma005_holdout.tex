@@ -1,0 +1,16 @@
+\begin{table}[!htbp]
+\centering
+\caption{Frozen held-out comparison on independently initialized seeds 15--24.}
+\label{tab:gamma005-holdout}
+\small
+\begin{tabular}{lcccc}
+\toprule
+Method & AUTC$_{160}$ & $R_{80}$ & $R_{160}$ & AUTC$_{640}$ \\
+\midrule
+Energy-Gated DA-TPP ($\gamma=0.05$) & $0.3223 \pm 0.0276$ & $28.4 \pm 3.1$ & $52.4 \pm 3.0$ & $0.7948 \pm 0.0103$ \\
+Predicted-Target Greedy & $0.2967 \pm 0.0297$ & $25.8 \pm 3.0$ & $48.7 \pm 3.9$ & $0.7847 \pm 0.0109$ \\
+Mean paired difference & $+0.0256$ & $+2.6$ & $+3.7$ & $+0.0102$ \\
+\bottomrule
+\end{tabular}
+\tabnote{Values are mean $\pm$ sample SD over ten untouched held-out seeds. Gate led Greedy in AUTC$_{160}$ in 6/10 pairs. The paired mean AUTC$_{160}$ difference had a 100,000-resample bootstrap 95\% CI of [0.0067, 0.0449], exact two-sided Wilcoxon $p=0.105$, and paired $d_z=0.789$.}
+\end{table}

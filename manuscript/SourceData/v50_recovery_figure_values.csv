@@ -1,0 +1,127 @@
+method,query,panel,cumulative_targets
+Energy-Gated DA-TPP,0,six_policy_archive,0
+Energy-Gated DA-TPP,16,six_policy_archive,5
+Energy-Gated DA-TPP,32,six_policy_archive,15
+Energy-Gated DA-TPP,48,six_policy_archive,21
+Energy-Gated DA-TPP,64,six_policy_archive,29
+Energy-Gated DA-TPP,80,six_policy_archive,33
+Energy-Gated DA-TPP,96,six_policy_archive,38
+Energy-Gated DA-TPP,112,six_policy_archive,41
+Energy-Gated DA-TPP,128,six_policy_archive,44
+Energy-Gated DA-TPP,144,six_policy_archive,46
+Energy-Gated DA-TPP,160,six_policy_archive,50
+Energy-Gated DA-TPP,176,six_policy_archive,56
+Energy-Gated DA-TPP,192,six_policy_archive,62
+Energy-Gated DA-TPP,208,six_policy_archive,64
+Energy-Gated DA-TPP,224,six_policy_archive,68
+Energy-Gated DA-TPP,240,six_policy_archive,69
+Energy-Gated DA-TPP,256,six_policy_archive,71
+Energy-Gated DA-TPP,272,six_policy_archive,74
+Energy-Gated DA-TPP,288,six_policy_archive,76
+Energy-Gated DA-TPP,304,six_policy_archive,78
+Energy-Gated DA-TPP,320,six_policy_archive,78
+Predicted-Target Greedy,0,six_policy_archive,0
+Predicted-Target Greedy,16,six_policy_archive,5
+Predicted-Target Greedy,32,six_policy_archive,6
+Predicted-Target Greedy,48,six_policy_archive,9
+Predicted-Target Greedy,64,six_policy_archive,22
+Predicted-Target Greedy,80,six_policy_archive,27
+Predicted-Target Greedy,96,six_policy_archive,29
+Predicted-Target Greedy,112,six_policy_archive,36
+Predicted-Target Greedy,128,six_policy_archive,37
+Predicted-Target Greedy,144,six_policy_archive,40
+Predicted-Target Greedy,160,six_policy_archive,47
+Predicted-Target Greedy,176,six_policy_archive,49
+Predicted-Target Greedy,192,six_policy_archive,53
+Predicted-Target Greedy,208,six_policy_archive,57
+Predicted-Target Greedy,224,six_policy_archive,65
+Predicted-Target Greedy,240,six_policy_archive,69
+Predicted-Target Greedy,256,six_policy_archive,69
+Predicted-Target Greedy,272,six_policy_archive,69
+Predicted-Target Greedy,288,six_policy_archive,74
+Predicted-Target Greedy,304,six_policy_archive,78
+Predicted-Target Greedy,320,six_policy_archive,78
+Explore,0,six_policy_archive,0
+Explore,16,six_policy_archive,8
+Explore,32,six_policy_archive,15
+Explore,48,six_policy_archive,19
+Explore,64,six_policy_archive,23
+Explore,80,six_policy_archive,29
+Explore,96,six_policy_archive,32
+Explore,112,six_policy_archive,33
+Explore,128,six_policy_archive,36
+Explore,144,six_policy_archive,40
+Explore,160,six_policy_archive,44
+Explore,176,six_policy_archive,48
+Explore,192,six_policy_archive,51
+Explore,208,six_policy_archive,54
+Explore,224,six_policy_archive,55
+Explore,240,six_policy_archive,60
+Explore,256,six_policy_archive,62
+Explore,272,six_policy_archive,68
+Explore,288,six_policy_archive,72
+Explore,304,six_policy_archive,73
+Explore,320,six_policy_archive,74
+Modulus / Gradient-Norm Hybrid,0,six_policy_archive,0
+Modulus / Gradient-Norm Hybrid,16,six_policy_archive,2
+Modulus / Gradient-Norm Hybrid,32,six_policy_archive,5
+Modulus / Gradient-Norm Hybrid,48,six_policy_archive,5
+Modulus / Gradient-Norm Hybrid,64,six_policy_archive,7
+Modulus / Gradient-Norm Hybrid,80,six_policy_archive,10
+Modulus / Gradient-Norm Hybrid,96,six_policy_archive,12
+Modulus / Gradient-Norm Hybrid,112,six_policy_archive,12
+Modulus / Gradient-Norm Hybrid,128,six_policy_archive,16
+Modulus / Gradient-Norm Hybrid,144,six_policy_archive,18
+Modulus / Gradient-Norm Hybrid,160,six_policy_archive,20
+Modulus / Gradient-Norm Hybrid,176,six_policy_archive,22
+Modulus / Gradient-Norm Hybrid,192,six_policy_archive,25
+Modulus / Gradient-Norm Hybrid,208,six_policy_archive,31
+Modulus / Gradient-Norm Hybrid,224,six_policy_archive,36
+Modulus / Gradient-Norm Hybrid,240,six_policy_archive,39
+Modulus / Gradient-Norm Hybrid,256,six_policy_archive,46
+Modulus / Gradient-Norm Hybrid,272,six_policy_archive,52
+Modulus / Gradient-Norm Hybrid,288,six_policy_archive,54
+Modulus / Gradient-Norm Hybrid,304,six_policy_archive,56
+Modulus / Gradient-Norm Hybrid,320,six_policy_archive,58
+MC Dropout,0,six_policy_archive,0
+MC Dropout,16,six_policy_archive,2
+MC Dropout,32,six_policy_archive,3
+MC Dropout,48,six_policy_archive,5
+MC Dropout,64,six_policy_archive,6
+MC Dropout,80,six_policy_archive,8
+MC Dropout,96,six_policy_archive,13
+MC Dropout,112,six_policy_archive,21
+MC Dropout,128,six_policy_archive,24
+MC Dropout,144,six_policy_archive,26
+MC Dropout,160,six_policy_archive,27
+MC Dropout,176,six_policy_archive,28
+MC Dropout,192,six_policy_archive,29
+MC Dropout,208,six_policy_archive,29
+MC Dropout,224,six_policy_archive,30
+MC Dropout,240,six_policy_archive,36
+MC Dropout,256,six_policy_archive,37
+MC Dropout,272,six_policy_archive,43
+MC Dropout,288,six_policy_archive,44
+MC Dropout,304,six_policy_archive,47
+MC Dropout,320,six_policy_archive,49
+Random Sampling,0,six_policy_archive,0
+Random Sampling,16,six_policy_archive,0
+Random Sampling,32,six_policy_archive,3
+Random Sampling,48,six_policy_archive,3
+Random Sampling,64,six_policy_archive,5
+Random Sampling,80,six_policy_archive,6
+Random Sampling,96,six_policy_archive,11
+Random Sampling,112,six_policy_archive,12
+Random Sampling,128,six_policy_archive,14
+Random Sampling,144,six_policy_archive,18
+Random Sampling,160,six_policy_archive,18
+Random Sampling,176,six_policy_archive,20
+Random Sampling,192,six_policy_archive,21
+Random Sampling,208,six_policy_archive,23
+Random Sampling,224,six_policy_archive,25
+Random Sampling,240,six_policy_archive,26
+Random Sampling,256,six_policy_archive,28
+Random Sampling,272,six_policy_archive,32
+Random Sampling,288,six_policy_archive,34
+Random Sampling,304,six_policy_archive,35
+Random Sampling,320,six_policy_archive,39

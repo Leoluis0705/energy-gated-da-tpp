@@ -1,0 +1,5 @@
+method,seed_count,unique_sequences,independent_sequence_check
+energy_gated_da_tpp,5,5,PASS
+predicted_target_greedy,5,5,PASS
+mc_dropout,5,5,PASS
+random_sampling,5,5,PASS

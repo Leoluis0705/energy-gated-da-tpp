@@ -1,0 +1,14 @@
+task,model,n,roc_auc,balanced_accuracy,brier_score,log_loss,mae_eV_atom,rmse_eV_atom,prediction_interval_coverage_95,evidence_tier
+DFT evaluability,shallow_gradient_boosting,20,0.8200000000000001,0.7,0.1831575839870609,0.5447735724787457,,,,observed_DFT_nested_LOO
+DFT evaluability,shallow_random_forest,20,0.66,0.75,0.2341634004409091,0.6644145786878476,,,,observed_DFT_nested_LOO
+DFT evaluability,regularized_logistic,20,0.54,0.6,0.2578050900544735,0.7127017943473153,,,,observed_DFT_nested_LOO
+DFT evaluability,laplace_bayesian_logistic,20,0.4599999999999999,0.6,0.2821784847433197,0.7663875223012349,,,,observed_DFT_nested_LOO
+DFT formation-energy calibration,MACE-MP::composition_offset,10,,,,,0.0144870305729443,0.015928147383606,0.7,observed_DFT_energy_LOO
+DFT formation-energy calibration,dual_MLIP_ensemble::composition_offset,10,,,,,0.01490512316907,0.0176824719385942,0.6,observed_DFT_energy_LOO
+DFT formation-energy calibration,CHGNet::composition_offset,10,,,,,0.0184247303431217,0.0236979570691475,0.7,observed_DFT_energy_LOO
+DFT formation-energy calibration,dual_MLIP_ensemble::bayesian_ridge_ensemble,10,,,,,0.0211704479424233,0.0231258358156656,1.0,observed_DFT_energy_LOO
+DFT formation-energy calibration,ALIGNN::composition_offset,10,,,,,0.0228032334280712,0.0270637920016205,0.5,observed_DFT_energy_LOO
+DFT formation-energy calibration,CHGNet::ridge_calibration,10,,,,,0.1866960012180879,0.1939938600390422,0.8,observed_DFT_energy_LOO
+DFT formation-energy calibration,dual_MLIP_ensemble::ridge_calibration,10,,,,,0.1946879771771903,0.2044080150891007,0.8,observed_DFT_energy_LOO
+DFT formation-energy calibration,MACE-MP::ridge_calibration,10,,,,,0.2028364207663557,0.2153444988980187,0.8,observed_DFT_energy_LOO
+DFT formation-energy calibration,ALIGNN::ridge_calibration,10,,,,,0.2371255300083279,0.2658321085339585,0.8,observed_DFT_energy_LOO

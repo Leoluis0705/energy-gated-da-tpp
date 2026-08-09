@@ -1,0 +1,1927 @@
+method,query,target_label,cumulative_targets
+Energy-Gated DA-TPP,0,0,0
+Energy-Gated DA-TPP,1,0,0
+Energy-Gated DA-TPP,2,0,0
+Energy-Gated DA-TPP,3,0,0
+Energy-Gated DA-TPP,4,1,1
+Energy-Gated DA-TPP,5,0,1
+Energy-Gated DA-TPP,6,1,2
+Energy-Gated DA-TPP,7,0,2
+Energy-Gated DA-TPP,8,1,3
+Energy-Gated DA-TPP,9,0,3
+Energy-Gated DA-TPP,10,0,3
+Energy-Gated DA-TPP,11,0,3
+Energy-Gated DA-TPP,12,0,3
+Energy-Gated DA-TPP,13,0,3
+Energy-Gated DA-TPP,14,0,3
+Energy-Gated DA-TPP,15,1,4
+Energy-Gated DA-TPP,16,1,5
+Energy-Gated DA-TPP,17,1,6
+Energy-Gated DA-TPP,18,1,7
+Energy-Gated DA-TPP,19,1,8
+Energy-Gated DA-TPP,20,0,8
+Energy-Gated DA-TPP,21,1,9
+Energy-Gated DA-TPP,22,1,10
+Energy-Gated DA-TPP,23,1,11
+Energy-Gated DA-TPP,24,0,11
+Energy-Gated DA-TPP,25,1,12
+Energy-Gated DA-TPP,26,0,12
+Energy-Gated DA-TPP,27,0,12
+Energy-Gated DA-TPP,28,1,13
+Energy-Gated DA-TPP,29,1,14
+Energy-Gated DA-TPP,30,0,14
+Energy-Gated DA-TPP,31,0,14
+Energy-Gated DA-TPP,32,1,15
+Energy-Gated DA-TPP,33,0,15
+Energy-Gated DA-TPP,34,0,15
+Energy-Gated DA-TPP,35,1,16
+Energy-Gated DA-TPP,36,0,16
+Energy-Gated DA-TPP,37,1,17
+Energy-Gated DA-TPP,38,0,17
+Energy-Gated DA-TPP,39,0,17
+Energy-Gated DA-TPP,40,1,18
+Energy-Gated DA-TPP,41,0,18
+Energy-Gated DA-TPP,42,0,18
+Energy-Gated DA-TPP,43,0,18
+Energy-Gated DA-TPP,44,1,19
+Energy-Gated DA-TPP,45,1,20
+Energy-Gated DA-TPP,46,0,20
+Energy-Gated DA-TPP,47,1,21
+Energy-Gated DA-TPP,48,0,21
+Energy-Gated DA-TPP,49,0,21
+Energy-Gated DA-TPP,50,1,22
+Energy-Gated DA-TPP,51,1,23
+Energy-Gated DA-TPP,52,0,23
+Energy-Gated DA-TPP,53,1,24
+Energy-Gated DA-TPP,54,1,25
+Energy-Gated DA-TPP,55,1,26
+Energy-Gated DA-TPP,56,1,27
+Energy-Gated DA-TPP,57,0,27
+Energy-Gated DA-TPP,58,0,27
+Energy-Gated DA-TPP,59,0,27
+Energy-Gated DA-TPP,60,0,27
+Energy-Gated DA-TPP,61,0,27
+Energy-Gated DA-TPP,62,1,28
+Energy-Gated DA-TPP,63,1,29
+Energy-Gated DA-TPP,64,0,29
+Energy-Gated DA-TPP,65,0,29
+Energy-Gated DA-TPP,66,1,30
+Energy-Gated DA-TPP,67,1,31
+Energy-Gated DA-TPP,68,0,31
+Energy-Gated DA-TPP,69,1,32
+Energy-Gated DA-TPP,70,0,32
+Energy-Gated DA-TPP,71,0,32
+Energy-Gated DA-TPP,72,0,32
+Energy-Gated DA-TPP,73,0,32
+Energy-Gated DA-TPP,74,0,32
+Energy-Gated DA-TPP,75,0,32
+Energy-Gated DA-TPP,76,1,33
+Energy-Gated DA-TPP,77,0,33
+Energy-Gated DA-TPP,78,0,33
+Energy-Gated DA-TPP,79,0,33
+Energy-Gated DA-TPP,80,0,33
+Energy-Gated DA-TPP,81,1,34
+Energy-Gated DA-TPP,82,0,34
+Energy-Gated DA-TPP,83,0,34
+Energy-Gated DA-TPP,84,0,34
+Energy-Gated DA-TPP,85,0,34
+Energy-Gated DA-TPP,86,1,35
+Energy-Gated DA-TPP,87,1,36
+Energy-Gated DA-TPP,88,0,36
+Energy-Gated DA-TPP,89,0,36
+Energy-Gated DA-TPP,90,1,37
+Energy-Gated DA-TPP,91,0,37
+Energy-Gated DA-TPP,92,1,38
+Energy-Gated DA-TPP,93,0,38
+Energy-Gated DA-TPP,94,0,38
+Energy-Gated DA-TPP,95,0,38
+Energy-Gated DA-TPP,96,0,38
+Energy-Gated DA-TPP,97,1,39
+Energy-Gated DA-TPP,98,0,39
+Energy-Gated DA-TPP,99,0,39
+Energy-Gated DA-TPP,100,0,39
+Energy-Gated DA-TPP,101,1,40
+Energy-Gated DA-TPP,102,0,40
+Energy-Gated DA-TPP,103,0,40
+Energy-Gated DA-TPP,104,0,40
+Energy-Gated DA-TPP,105,0,40
+Energy-Gated DA-TPP,106,0,40
+Energy-Gated DA-TPP,107,1,41
+Energy-Gated DA-TPP,108,0,41
+Energy-Gated DA-TPP,109,0,41
+Energy-Gated DA-TPP,110,0,41
+Energy-Gated DA-TPP,111,0,41
+Energy-Gated DA-TPP,112,0,41
+Energy-Gated DA-TPP,113,0,41
+Energy-Gated DA-TPP,114,0,41
+Energy-Gated DA-TPP,115,0,41
+Energy-Gated DA-TPP,116,0,41
+Energy-Gated DA-TPP,117,1,42
+Energy-Gated DA-TPP,118,0,42
+Energy-Gated DA-TPP,119,0,42
+Energy-Gated DA-TPP,120,0,42
+Energy-Gated DA-TPP,121,1,43
+Energy-Gated DA-TPP,122,0,43
+Energy-Gated DA-TPP,123,0,43
+Energy-Gated DA-TPP,124,0,43
+Energy-Gated DA-TPP,125,0,43
+Energy-Gated DA-TPP,126,0,43
+Energy-Gated DA-TPP,127,0,43
+Energy-Gated DA-TPP,128,1,44
+Energy-Gated DA-TPP,129,0,44
+Energy-Gated DA-TPP,130,0,44
+Energy-Gated DA-TPP,131,1,45
+Energy-Gated DA-TPP,132,0,45
+Energy-Gated DA-TPP,133,0,45
+Energy-Gated DA-TPP,134,0,45
+Energy-Gated DA-TPP,135,0,45
+Energy-Gated DA-TPP,136,0,45
+Energy-Gated DA-TPP,137,0,45
+Energy-Gated DA-TPP,138,0,45
+Energy-Gated DA-TPP,139,0,45
+Energy-Gated DA-TPP,140,0,45
+Energy-Gated DA-TPP,141,0,45
+Energy-Gated DA-TPP,142,0,45
+Energy-Gated DA-TPP,143,1,46
+Energy-Gated DA-TPP,144,0,46
+Energy-Gated DA-TPP,145,0,46
+Energy-Gated DA-TPP,146,1,47
+Energy-Gated DA-TPP,147,0,47
+Energy-Gated DA-TPP,148,0,47
+Energy-Gated DA-TPP,149,1,48
+Energy-Gated DA-TPP,150,0,48
+Energy-Gated DA-TPP,151,0,48
+Energy-Gated DA-TPP,152,0,48
+Energy-Gated DA-TPP,153,0,48
+Energy-Gated DA-TPP,154,0,48
+Energy-Gated DA-TPP,155,0,48
+Energy-Gated DA-TPP,156,0,48
+Energy-Gated DA-TPP,157,0,48
+Energy-Gated DA-TPP,158,1,49
+Energy-Gated DA-TPP,159,0,49
+Energy-Gated DA-TPP,160,1,50
+Energy-Gated DA-TPP,161,1,51
+Energy-Gated DA-TPP,162,0,51
+Energy-Gated DA-TPP,163,1,52
+Energy-Gated DA-TPP,164,0,52
+Energy-Gated DA-TPP,165,0,52
+Energy-Gated DA-TPP,166,0,52
+Energy-Gated DA-TPP,167,1,53
+Energy-Gated DA-TPP,168,0,53
+Energy-Gated DA-TPP,169,0,53
+Energy-Gated DA-TPP,170,0,53
+Energy-Gated DA-TPP,171,0,53
+Energy-Gated DA-TPP,172,1,54
+Energy-Gated DA-TPP,173,1,55
+Energy-Gated DA-TPP,174,0,55
+Energy-Gated DA-TPP,175,1,56
+Energy-Gated DA-TPP,176,0,56
+Energy-Gated DA-TPP,177,1,57
+Energy-Gated DA-TPP,178,0,57
+Energy-Gated DA-TPP,179,1,58
+Energy-Gated DA-TPP,180,0,58
+Energy-Gated DA-TPP,181,0,58
+Energy-Gated DA-TPP,182,1,59
+Energy-Gated DA-TPP,183,0,59
+Energy-Gated DA-TPP,184,0,59
+Energy-Gated DA-TPP,185,1,60
+Energy-Gated DA-TPP,186,0,60
+Energy-Gated DA-TPP,187,0,60
+Energy-Gated DA-TPP,188,0,60
+Energy-Gated DA-TPP,189,1,61
+Energy-Gated DA-TPP,190,0,61
+Energy-Gated DA-TPP,191,0,61
+Energy-Gated DA-TPP,192,1,62
+Energy-Gated DA-TPP,193,0,62
+Energy-Gated DA-TPP,194,0,62
+Energy-Gated DA-TPP,195,0,62
+Energy-Gated DA-TPP,196,1,63
+Energy-Gated DA-TPP,197,0,63
+Energy-Gated DA-TPP,198,0,63
+Energy-Gated DA-TPP,199,1,64
+Energy-Gated DA-TPP,200,0,64
+Energy-Gated DA-TPP,201,0,64
+Energy-Gated DA-TPP,202,0,64
+Energy-Gated DA-TPP,203,0,64
+Energy-Gated DA-TPP,204,0,64
+Energy-Gated DA-TPP,205,0,64
+Energy-Gated DA-TPP,206,0,64
+Energy-Gated DA-TPP,207,0,64
+Energy-Gated DA-TPP,208,0,64
+Energy-Gated DA-TPP,209,1,65
+Energy-Gated DA-TPP,210,0,65
+Energy-Gated DA-TPP,211,0,65
+Energy-Gated DA-TPP,212,0,65
+Energy-Gated DA-TPP,213,0,65
+Energy-Gated DA-TPP,214,0,65
+Energy-Gated DA-TPP,215,0,65
+Energy-Gated DA-TPP,216,0,65
+Energy-Gated DA-TPP,217,0,65
+Energy-Gated DA-TPP,218,1,66
+Energy-Gated DA-TPP,219,0,66
+Energy-Gated DA-TPP,220,1,67
+Energy-Gated DA-TPP,221,0,67
+Energy-Gated DA-TPP,222,1,68
+Energy-Gated DA-TPP,223,0,68
+Energy-Gated DA-TPP,224,0,68
+Energy-Gated DA-TPP,225,0,68
+Energy-Gated DA-TPP,226,0,68
+Energy-Gated DA-TPP,227,0,68
+Energy-Gated DA-TPP,228,0,68
+Energy-Gated DA-TPP,229,0,68
+Energy-Gated DA-TPP,230,0,68
+Energy-Gated DA-TPP,231,0,68
+Energy-Gated DA-TPP,232,1,69
+Energy-Gated DA-TPP,233,0,69
+Energy-Gated DA-TPP,234,0,69
+Energy-Gated DA-TPP,235,0,69
+Energy-Gated DA-TPP,236,0,69
+Energy-Gated DA-TPP,237,0,69
+Energy-Gated DA-TPP,238,0,69
+Energy-Gated DA-TPP,239,0,69
+Energy-Gated DA-TPP,240,0,69
+Energy-Gated DA-TPP,241,0,69
+Energy-Gated DA-TPP,242,0,69
+Energy-Gated DA-TPP,243,0,69
+Energy-Gated DA-TPP,244,0,69
+Energy-Gated DA-TPP,245,0,69
+Energy-Gated DA-TPP,246,0,69
+Energy-Gated DA-TPP,247,0,69
+Energy-Gated DA-TPP,248,0,69
+Energy-Gated DA-TPP,249,0,69
+Energy-Gated DA-TPP,250,0,69
+Energy-Gated DA-TPP,251,0,69
+Energy-Gated DA-TPP,252,0,69
+Energy-Gated DA-TPP,253,1,70
+Energy-Gated DA-TPP,254,1,71
+Energy-Gated DA-TPP,255,0,71
+Energy-Gated DA-TPP,256,0,71
+Energy-Gated DA-TPP,257,0,71
+Energy-Gated DA-TPP,258,0,71
+Energy-Gated DA-TPP,259,0,71
+Energy-Gated DA-TPP,260,1,72
+Energy-Gated DA-TPP,261,0,72
+Energy-Gated DA-TPP,262,0,72
+Energy-Gated DA-TPP,263,0,72
+Energy-Gated DA-TPP,264,0,72
+Energy-Gated DA-TPP,265,0,72
+Energy-Gated DA-TPP,266,1,73
+Energy-Gated DA-TPP,267,0,73
+Energy-Gated DA-TPP,268,0,73
+Energy-Gated DA-TPP,269,0,73
+Energy-Gated DA-TPP,270,0,73
+Energy-Gated DA-TPP,271,0,73
+Energy-Gated DA-TPP,272,1,74
+Energy-Gated DA-TPP,273,0,74
+Energy-Gated DA-TPP,274,0,74
+Energy-Gated DA-TPP,275,0,74
+Energy-Gated DA-TPP,276,0,74
+Energy-Gated DA-TPP,277,0,74
+Energy-Gated DA-TPP,278,0,74
+Energy-Gated DA-TPP,279,0,74
+Energy-Gated DA-TPP,280,0,74
+Energy-Gated DA-TPP,281,0,74
+Energy-Gated DA-TPP,282,1,75
+Energy-Gated DA-TPP,283,0,75
+Energy-Gated DA-TPP,284,1,76
+Energy-Gated DA-TPP,285,0,76
+Energy-Gated DA-TPP,286,0,76
+Energy-Gated DA-TPP,287,0,76
+Energy-Gated DA-TPP,288,0,76
+Energy-Gated DA-TPP,289,1,77
+Energy-Gated DA-TPP,290,0,77
+Energy-Gated DA-TPP,291,0,77
+Energy-Gated DA-TPP,292,0,77
+Energy-Gated DA-TPP,293,0,77
+Energy-Gated DA-TPP,294,0,77
+Energy-Gated DA-TPP,295,0,77
+Energy-Gated DA-TPP,296,0,77
+Energy-Gated DA-TPP,297,1,78
+Energy-Gated DA-TPP,298,0,78
+Energy-Gated DA-TPP,299,0,78
+Energy-Gated DA-TPP,300,0,78
+Energy-Gated DA-TPP,301,0,78
+Energy-Gated DA-TPP,302,0,78
+Energy-Gated DA-TPP,303,0,78
+Energy-Gated DA-TPP,304,0,78
+Energy-Gated DA-TPP,305,0,78
+Energy-Gated DA-TPP,306,0,78
+Energy-Gated DA-TPP,307,0,78
+Energy-Gated DA-TPP,308,0,78
+Energy-Gated DA-TPP,309,0,78
+Energy-Gated DA-TPP,310,0,78
+Energy-Gated DA-TPP,311,0,78
+Energy-Gated DA-TPP,312,0,78
+Energy-Gated DA-TPP,313,0,78
+Energy-Gated DA-TPP,314,0,78
+Energy-Gated DA-TPP,315,0,78
+Energy-Gated DA-TPP,316,0,78
+Energy-Gated DA-TPP,317,0,78
+Energy-Gated DA-TPP,318,0,78
+Energy-Gated DA-TPP,319,0,78
+Energy-Gated DA-TPP,320,0,78
+Predicted-Target Greedy,0,0,0
+Predicted-Target Greedy,1,1,1
+Predicted-Target Greedy,2,0,1
+Predicted-Target Greedy,3,0,1
+Predicted-Target Greedy,4,0,1
+Predicted-Target Greedy,5,0,1
+Predicted-Target Greedy,6,0,1
+Predicted-Target Greedy,7,0,1
+Predicted-Target Greedy,8,1,2
+Predicted-Target Greedy,9,0,2
+Predicted-Target Greedy,10,0,2
+Predicted-Target Greedy,11,0,2
+Predicted-Target Greedy,12,1,3
+Predicted-Target Greedy,13,0,3
+Predicted-Target Greedy,14,1,4
+Predicted-Target Greedy,15,0,4
+Predicted-Target Greedy,16,1,5
+Predicted-Target Greedy,17,0,5
+Predicted-Target Greedy,18,1,6
+Predicted-Target Greedy,19,0,6
+Predicted-Target Greedy,20,0,6
+Predicted-Target Greedy,21,0,6
+Predicted-Target Greedy,22,0,6
+Predicted-Target Greedy,23,0,6
+Predicted-Target Greedy,24,0,6
+Predicted-Target Greedy,25,0,6
+Predicted-Target Greedy,26,0,6
+Predicted-Target Greedy,27,0,6
+Predicted-Target Greedy,28,0,6
+Predicted-Target Greedy,29,0,6
+Predicted-Target Greedy,30,0,6
+Predicted-Target Greedy,31,0,6
+Predicted-Target Greedy,32,0,6
+Predicted-Target Greedy,33,0,6
+Predicted-Target Greedy,34,1,7
+Predicted-Target Greedy,35,0,7
+Predicted-Target Greedy,36,0,7
+Predicted-Target Greedy,37,0,7
+Predicted-Target Greedy,38,0,7
+Predicted-Target Greedy,39,0,7
+Predicted-Target Greedy,40,0,7
+Predicted-Target Greedy,41,0,7
+Predicted-Target Greedy,42,1,8
+Predicted-Target Greedy,43,1,9
+Predicted-Target Greedy,44,0,9
+Predicted-Target Greedy,45,0,9
+Predicted-Target Greedy,46,0,9
+Predicted-Target Greedy,47,0,9
+Predicted-Target Greedy,48,0,9
+Predicted-Target Greedy,49,0,9
+Predicted-Target Greedy,50,1,10
+Predicted-Target Greedy,51,1,11
+Predicted-Target Greedy,52,1,12
+Predicted-Target Greedy,53,1,13
+Predicted-Target Greedy,54,1,14
+Predicted-Target Greedy,55,1,15
+Predicted-Target Greedy,56,1,16
+Predicted-Target Greedy,57,1,17
+Predicted-Target Greedy,58,1,18
+Predicted-Target Greedy,59,1,19
+Predicted-Target Greedy,60,1,20
+Predicted-Target Greedy,61,0,20
+Predicted-Target Greedy,62,1,21
+Predicted-Target Greedy,63,0,21
+Predicted-Target Greedy,64,1,22
+Predicted-Target Greedy,65,1,23
+Predicted-Target Greedy,66,1,24
+Predicted-Target Greedy,67,0,24
+Predicted-Target Greedy,68,0,24
+Predicted-Target Greedy,69,0,24
+Predicted-Target Greedy,70,0,24
+Predicted-Target Greedy,71,0,24
+Predicted-Target Greedy,72,1,25
+Predicted-Target Greedy,73,1,26
+Predicted-Target Greedy,74,0,26
+Predicted-Target Greedy,75,0,26
+Predicted-Target Greedy,76,0,26
+Predicted-Target Greedy,77,0,26
+Predicted-Target Greedy,78,0,26
+Predicted-Target Greedy,79,1,27
+Predicted-Target Greedy,80,0,27
+Predicted-Target Greedy,81,0,27
+Predicted-Target Greedy,82,0,27
+Predicted-Target Greedy,83,0,27
+Predicted-Target Greedy,84,0,27
+Predicted-Target Greedy,85,0,27
+Predicted-Target Greedy,86,0,27
+Predicted-Target Greedy,87,0,27
+Predicted-Target Greedy,88,0,27
+Predicted-Target Greedy,89,0,27
+Predicted-Target Greedy,90,0,27
+Predicted-Target Greedy,91,0,27
+Predicted-Target Greedy,92,0,27
+Predicted-Target Greedy,93,1,28
+Predicted-Target Greedy,94,1,29
+Predicted-Target Greedy,95,0,29
+Predicted-Target Greedy,96,0,29
+Predicted-Target Greedy,97,1,30
+Predicted-Target Greedy,98,0,30
+Predicted-Target Greedy,99,0,30
+Predicted-Target Greedy,100,1,31
+Predicted-Target Greedy,101,0,31
+Predicted-Target Greedy,102,1,32
+Predicted-Target Greedy,103,0,32
+Predicted-Target Greedy,104,1,33
+Predicted-Target Greedy,105,0,33
+Predicted-Target Greedy,106,0,33
+Predicted-Target Greedy,107,0,33
+Predicted-Target Greedy,108,1,34
+Predicted-Target Greedy,109,0,34
+Predicted-Target Greedy,110,1,35
+Predicted-Target Greedy,111,0,35
+Predicted-Target Greedy,112,1,36
+Predicted-Target Greedy,113,0,36
+Predicted-Target Greedy,114,0,36
+Predicted-Target Greedy,115,0,36
+Predicted-Target Greedy,116,0,36
+Predicted-Target Greedy,117,0,36
+Predicted-Target Greedy,118,1,37
+Predicted-Target Greedy,119,0,37
+Predicted-Target Greedy,120,0,37
+Predicted-Target Greedy,121,0,37
+Predicted-Target Greedy,122,0,37
+Predicted-Target Greedy,123,0,37
+Predicted-Target Greedy,124,0,37
+Predicted-Target Greedy,125,0,37
+Predicted-Target Greedy,126,0,37
+Predicted-Target Greedy,127,0,37
+Predicted-Target Greedy,128,0,37
+Predicted-Target Greedy,129,0,37
+Predicted-Target Greedy,130,0,37
+Predicted-Target Greedy,131,0,37
+Predicted-Target Greedy,132,0,37
+Predicted-Target Greedy,133,0,37
+Predicted-Target Greedy,134,0,37
+Predicted-Target Greedy,135,0,37
+Predicted-Target Greedy,136,0,37
+Predicted-Target Greedy,137,1,38
+Predicted-Target Greedy,138,0,38
+Predicted-Target Greedy,139,0,38
+Predicted-Target Greedy,140,1,39
+Predicted-Target Greedy,141,0,39
+Predicted-Target Greedy,142,0,39
+Predicted-Target Greedy,143,1,40
+Predicted-Target Greedy,144,0,40
+Predicted-Target Greedy,145,0,40
+Predicted-Target Greedy,146,1,41
+Predicted-Target Greedy,147,0,41
+Predicted-Target Greedy,148,0,41
+Predicted-Target Greedy,149,0,41
+Predicted-Target Greedy,150,1,42
+Predicted-Target Greedy,151,1,43
+Predicted-Target Greedy,152,1,44
+Predicted-Target Greedy,153,0,44
+Predicted-Target Greedy,154,1,45
+Predicted-Target Greedy,155,1,46
+Predicted-Target Greedy,156,1,47
+Predicted-Target Greedy,157,0,47
+Predicted-Target Greedy,158,0,47
+Predicted-Target Greedy,159,0,47
+Predicted-Target Greedy,160,0,47
+Predicted-Target Greedy,161,0,47
+Predicted-Target Greedy,162,0,47
+Predicted-Target Greedy,163,0,47
+Predicted-Target Greedy,164,0,47
+Predicted-Target Greedy,165,0,47
+Predicted-Target Greedy,166,0,47
+Predicted-Target Greedy,167,0,47
+Predicted-Target Greedy,168,0,47
+Predicted-Target Greedy,169,0,47
+Predicted-Target Greedy,170,0,47
+Predicted-Target Greedy,171,1,48
+Predicted-Target Greedy,172,1,49
+Predicted-Target Greedy,173,0,49
+Predicted-Target Greedy,174,0,49
+Predicted-Target Greedy,175,0,49
+Predicted-Target Greedy,176,0,49
+Predicted-Target Greedy,177,0,49
+Predicted-Target Greedy,178,0,49
+Predicted-Target Greedy,179,0,49
+Predicted-Target Greedy,180,1,50
+Predicted-Target Greedy,181,0,50
+Predicted-Target Greedy,182,1,51
+Predicted-Target Greedy,183,0,51
+Predicted-Target Greedy,184,0,51
+Predicted-Target Greedy,185,0,51
+Predicted-Target Greedy,186,1,52
+Predicted-Target Greedy,187,0,52
+Predicted-Target Greedy,188,0,52
+Predicted-Target Greedy,189,1,53
+Predicted-Target Greedy,190,0,53
+Predicted-Target Greedy,191,0,53
+Predicted-Target Greedy,192,0,53
+Predicted-Target Greedy,193,1,54
+Predicted-Target Greedy,194,1,55
+Predicted-Target Greedy,195,0,55
+Predicted-Target Greedy,196,0,55
+Predicted-Target Greedy,197,1,56
+Predicted-Target Greedy,198,0,56
+Predicted-Target Greedy,199,0,56
+Predicted-Target Greedy,200,0,56
+Predicted-Target Greedy,201,0,56
+Predicted-Target Greedy,202,0,56
+Predicted-Target Greedy,203,1,57
+Predicted-Target Greedy,204,0,57
+Predicted-Target Greedy,205,0,57
+Predicted-Target Greedy,206,0,57
+Predicted-Target Greedy,207,0,57
+Predicted-Target Greedy,208,0,57
+Predicted-Target Greedy,209,0,57
+Predicted-Target Greedy,210,0,57
+Predicted-Target Greedy,211,0,57
+Predicted-Target Greedy,212,1,58
+Predicted-Target Greedy,213,1,59
+Predicted-Target Greedy,214,0,59
+Predicted-Target Greedy,215,1,60
+Predicted-Target Greedy,216,1,61
+Predicted-Target Greedy,217,0,61
+Predicted-Target Greedy,218,1,62
+Predicted-Target Greedy,219,1,63
+Predicted-Target Greedy,220,0,63
+Predicted-Target Greedy,221,0,63
+Predicted-Target Greedy,222,1,64
+Predicted-Target Greedy,223,1,65
+Predicted-Target Greedy,224,0,65
+Predicted-Target Greedy,225,1,66
+Predicted-Target Greedy,226,1,67
+Predicted-Target Greedy,227,0,67
+Predicted-Target Greedy,228,1,68
+Predicted-Target Greedy,229,0,68
+Predicted-Target Greedy,230,1,69
+Predicted-Target Greedy,231,0,69
+Predicted-Target Greedy,232,0,69
+Predicted-Target Greedy,233,0,69
+Predicted-Target Greedy,234,0,69
+Predicted-Target Greedy,235,0,69
+Predicted-Target Greedy,236,0,69
+Predicted-Target Greedy,237,0,69
+Predicted-Target Greedy,238,0,69
+Predicted-Target Greedy,239,0,69
+Predicted-Target Greedy,240,0,69
+Predicted-Target Greedy,241,0,69
+Predicted-Target Greedy,242,0,69
+Predicted-Target Greedy,243,0,69
+Predicted-Target Greedy,244,0,69
+Predicted-Target Greedy,245,0,69
+Predicted-Target Greedy,246,0,69
+Predicted-Target Greedy,247,0,69
+Predicted-Target Greedy,248,0,69
+Predicted-Target Greedy,249,0,69
+Predicted-Target Greedy,250,0,69
+Predicted-Target Greedy,251,0,69
+Predicted-Target Greedy,252,0,69
+Predicted-Target Greedy,253,0,69
+Predicted-Target Greedy,254,0,69
+Predicted-Target Greedy,255,0,69
+Predicted-Target Greedy,256,0,69
+Predicted-Target Greedy,257,0,69
+Predicted-Target Greedy,258,0,69
+Predicted-Target Greedy,259,0,69
+Predicted-Target Greedy,260,0,69
+Predicted-Target Greedy,261,0,69
+Predicted-Target Greedy,262,0,69
+Predicted-Target Greedy,263,0,69
+Predicted-Target Greedy,264,0,69
+Predicted-Target Greedy,265,0,69
+Predicted-Target Greedy,266,0,69
+Predicted-Target Greedy,267,0,69
+Predicted-Target Greedy,268,0,69
+Predicted-Target Greedy,269,0,69
+Predicted-Target Greedy,270,0,69
+Predicted-Target Greedy,271,0,69
+Predicted-Target Greedy,272,0,69
+Predicted-Target Greedy,273,0,69
+Predicted-Target Greedy,274,0,69
+Predicted-Target Greedy,275,0,69
+Predicted-Target Greedy,276,0,69
+Predicted-Target Greedy,277,0,69
+Predicted-Target Greedy,278,0,69
+Predicted-Target Greedy,279,1,70
+Predicted-Target Greedy,280,1,71
+Predicted-Target Greedy,281,1,72
+Predicted-Target Greedy,282,0,72
+Predicted-Target Greedy,283,0,72
+Predicted-Target Greedy,284,0,72
+Predicted-Target Greedy,285,1,73
+Predicted-Target Greedy,286,0,73
+Predicted-Target Greedy,287,1,74
+Predicted-Target Greedy,288,0,74
+Predicted-Target Greedy,289,0,74
+Predicted-Target Greedy,290,1,75
+Predicted-Target Greedy,291,1,76
+Predicted-Target Greedy,292,0,76
+Predicted-Target Greedy,293,0,76
+Predicted-Target Greedy,294,0,76
+Predicted-Target Greedy,295,0,76
+Predicted-Target Greedy,296,0,76
+Predicted-Target Greedy,297,0,76
+Predicted-Target Greedy,298,0,76
+Predicted-Target Greedy,299,0,76
+Predicted-Target Greedy,300,1,77
+Predicted-Target Greedy,301,0,77
+Predicted-Target Greedy,302,0,77
+Predicted-Target Greedy,303,0,77
+Predicted-Target Greedy,304,1,78
+Predicted-Target Greedy,305,0,78
+Predicted-Target Greedy,306,0,78
+Predicted-Target Greedy,307,0,78
+Predicted-Target Greedy,308,0,78
+Predicted-Target Greedy,309,0,78
+Predicted-Target Greedy,310,0,78
+Predicted-Target Greedy,311,0,78
+Predicted-Target Greedy,312,0,78
+Predicted-Target Greedy,313,0,78
+Predicted-Target Greedy,314,0,78
+Predicted-Target Greedy,315,0,78
+Predicted-Target Greedy,316,0,78
+Predicted-Target Greedy,317,0,78
+Predicted-Target Greedy,318,0,78
+Predicted-Target Greedy,319,0,78
+Predicted-Target Greedy,320,0,78
+Explore,0,0,0
+Explore,1,1,1
+Explore,2,1,2
+Explore,3,0,2
+Explore,4,0,2
+Explore,5,0,2
+Explore,6,1,3
+Explore,7,0,3
+Explore,8,1,4
+Explore,9,1,5
+Explore,10,1,6
+Explore,11,0,6
+Explore,12,0,6
+Explore,13,0,6
+Explore,14,1,7
+Explore,15,1,8
+Explore,16,0,8
+Explore,17,0,8
+Explore,18,1,9
+Explore,19,0,9
+Explore,20,1,10
+Explore,21,1,11
+Explore,22,0,11
+Explore,23,0,11
+Explore,24,0,11
+Explore,25,1,12
+Explore,26,0,12
+Explore,27,1,13
+Explore,28,0,13
+Explore,29,0,13
+Explore,30,1,14
+Explore,31,0,14
+Explore,32,1,15
+Explore,33,0,15
+Explore,34,1,16
+Explore,35,0,16
+Explore,36,0,16
+Explore,37,0,16
+Explore,38,0,16
+Explore,39,0,16
+Explore,40,0,16
+Explore,41,1,17
+Explore,42,0,17
+Explore,43,1,18
+Explore,44,0,18
+Explore,45,1,19
+Explore,46,0,19
+Explore,47,0,19
+Explore,48,0,19
+Explore,49,0,19
+Explore,50,0,19
+Explore,51,0,19
+Explore,52,0,19
+Explore,53,0,19
+Explore,54,1,20
+Explore,55,0,20
+Explore,56,1,21
+Explore,57,0,21
+Explore,58,0,21
+Explore,59,0,21
+Explore,60,1,22
+Explore,61,1,23
+Explore,62,0,23
+Explore,63,0,23
+Explore,64,0,23
+Explore,65,1,24
+Explore,66,1,25
+Explore,67,0,25
+Explore,68,0,25
+Explore,69,0,25
+Explore,70,0,25
+Explore,71,0,25
+Explore,72,1,26
+Explore,73,1,27
+Explore,74,0,27
+Explore,75,1,28
+Explore,76,1,29
+Explore,77,0,29
+Explore,78,0,29
+Explore,79,0,29
+Explore,80,0,29
+Explore,81,0,29
+Explore,82,1,30
+Explore,83,0,30
+Explore,84,0,30
+Explore,85,0,30
+Explore,86,0,30
+Explore,87,0,30
+Explore,88,0,30
+Explore,89,0,30
+Explore,90,0,30
+Explore,91,0,30
+Explore,92,0,30
+Explore,93,0,30
+Explore,94,1,31
+Explore,95,1,32
+Explore,96,0,32
+Explore,97,0,32
+Explore,98,0,32
+Explore,99,0,32
+Explore,100,0,32
+Explore,101,0,32
+Explore,102,1,33
+Explore,103,0,33
+Explore,104,0,33
+Explore,105,0,33
+Explore,106,0,33
+Explore,107,0,33
+Explore,108,0,33
+Explore,109,0,33
+Explore,110,0,33
+Explore,111,0,33
+Explore,112,0,33
+Explore,113,0,33
+Explore,114,0,33
+Explore,115,0,33
+Explore,116,1,34
+Explore,117,0,34
+Explore,118,0,34
+Explore,119,0,34
+Explore,120,0,34
+Explore,121,0,34
+Explore,122,0,34
+Explore,123,1,35
+Explore,124,1,36
+Explore,125,0,36
+Explore,126,0,36
+Explore,127,0,36
+Explore,128,0,36
+Explore,129,0,36
+Explore,130,1,37
+Explore,131,1,38
+Explore,132,0,38
+Explore,133,0,38
+Explore,134,0,38
+Explore,135,0,38
+Explore,136,0,38
+Explore,137,0,38
+Explore,138,1,39
+Explore,139,0,39
+Explore,140,0,39
+Explore,141,0,39
+Explore,142,0,39
+Explore,143,0,39
+Explore,144,1,40
+Explore,145,1,41
+Explore,146,0,41
+Explore,147,0,41
+Explore,148,0,41
+Explore,149,0,41
+Explore,150,1,42
+Explore,151,0,42
+Explore,152,0,42
+Explore,153,1,43
+Explore,154,1,44
+Explore,155,0,44
+Explore,156,0,44
+Explore,157,0,44
+Explore,158,0,44
+Explore,159,0,44
+Explore,160,0,44
+Explore,161,1,45
+Explore,162,0,45
+Explore,163,0,45
+Explore,164,0,45
+Explore,165,0,45
+Explore,166,0,45
+Explore,167,0,45
+Explore,168,1,46
+Explore,169,0,46
+Explore,170,0,46
+Explore,171,1,47
+Explore,172,0,47
+Explore,173,1,48
+Explore,174,0,48
+Explore,175,0,48
+Explore,176,0,48
+Explore,177,0,48
+Explore,178,0,48
+Explore,179,0,48
+Explore,180,0,48
+Explore,181,0,48
+Explore,182,0,48
+Explore,183,1,49
+Explore,184,1,50
+Explore,185,0,50
+Explore,186,0,50
+Explore,187,0,50
+Explore,188,1,51
+Explore,189,0,51
+Explore,190,0,51
+Explore,191,0,51
+Explore,192,0,51
+Explore,193,0,51
+Explore,194,0,51
+Explore,195,0,51
+Explore,196,0,51
+Explore,197,0,51
+Explore,198,0,51
+Explore,199,1,52
+Explore,200,0,52
+Explore,201,0,52
+Explore,202,0,52
+Explore,203,0,52
+Explore,204,1,53
+Explore,205,0,53
+Explore,206,0,53
+Explore,207,1,54
+Explore,208,0,54
+Explore,209,0,54
+Explore,210,0,54
+Explore,211,0,54
+Explore,212,0,54
+Explore,213,0,54
+Explore,214,0,54
+Explore,215,0,54
+Explore,216,0,54
+Explore,217,0,54
+Explore,218,0,54
+Explore,219,1,55
+Explore,220,0,55
+Explore,221,0,55
+Explore,222,0,55
+Explore,223,0,55
+Explore,224,0,55
+Explore,225,1,56
+Explore,226,0,56
+Explore,227,0,56
+Explore,228,0,56
+Explore,229,0,56
+Explore,230,1,57
+Explore,231,0,57
+Explore,232,1,58
+Explore,233,0,58
+Explore,234,0,58
+Explore,235,0,58
+Explore,236,1,59
+Explore,237,0,59
+Explore,238,0,59
+Explore,239,1,60
+Explore,240,0,60
+Explore,241,0,60
+Explore,242,0,60
+Explore,243,0,60
+Explore,244,0,60
+Explore,245,0,60
+Explore,246,0,60
+Explore,247,0,60
+Explore,248,0,60
+Explore,249,0,60
+Explore,250,0,60
+Explore,251,0,60
+Explore,252,1,61
+Explore,253,0,61
+Explore,254,0,61
+Explore,255,0,61
+Explore,256,1,62
+Explore,257,0,62
+Explore,258,0,62
+Explore,259,1,63
+Explore,260,0,63
+Explore,261,0,63
+Explore,262,1,64
+Explore,263,1,65
+Explore,264,0,65
+Explore,265,0,65
+Explore,266,1,66
+Explore,267,0,66
+Explore,268,0,66
+Explore,269,0,66
+Explore,270,1,67
+Explore,271,1,68
+Explore,272,0,68
+Explore,273,0,68
+Explore,274,0,68
+Explore,275,0,68
+Explore,276,0,68
+Explore,277,0,68
+Explore,278,1,69
+Explore,279,0,69
+Explore,280,0,69
+Explore,281,0,69
+Explore,282,0,69
+Explore,283,0,69
+Explore,284,1,70
+Explore,285,1,71
+Explore,286,0,71
+Explore,287,1,72
+Explore,288,0,72
+Explore,289,0,72
+Explore,290,0,72
+Explore,291,0,72
+Explore,292,0,72
+Explore,293,0,72
+Explore,294,0,72
+Explore,295,0,72
+Explore,296,0,72
+Explore,297,0,72
+Explore,298,0,72
+Explore,299,0,72
+Explore,300,1,73
+Explore,301,0,73
+Explore,302,0,73
+Explore,303,0,73
+Explore,304,0,73
+Explore,305,0,73
+Explore,306,0,73
+Explore,307,0,73
+Explore,308,0,73
+Explore,309,0,73
+Explore,310,0,73
+Explore,311,0,73
+Explore,312,0,73
+Explore,313,0,73
+Explore,314,1,74
+Explore,315,0,74
+Explore,316,0,74
+Explore,317,0,74
+Explore,318,0,74
+Explore,319,0,74
+Explore,320,0,74
+MC Dropout,0,0,0
+MC Dropout,1,0,0
+MC Dropout,2,0,0
+MC Dropout,3,0,0
+MC Dropout,4,0,0
+MC Dropout,5,0,0
+MC Dropout,6,0,0
+MC Dropout,7,0,0
+MC Dropout,8,0,0
+MC Dropout,9,1,1
+MC Dropout,10,0,1
+MC Dropout,11,0,1
+MC Dropout,12,0,1
+MC Dropout,13,0,1
+MC Dropout,14,0,1
+MC Dropout,15,0,1
+MC Dropout,16,1,2
+MC Dropout,17,0,2
+MC Dropout,18,0,2
+MC Dropout,19,0,2
+MC Dropout,20,0,2
+MC Dropout,21,0,2
+MC Dropout,22,0,2
+MC Dropout,23,1,3
+MC Dropout,24,0,3
+MC Dropout,25,0,3
+MC Dropout,26,0,3
+MC Dropout,27,0,3
+MC Dropout,28,0,3
+MC Dropout,29,0,3
+MC Dropout,30,0,3
+MC Dropout,31,0,3
+MC Dropout,32,0,3
+MC Dropout,33,0,3
+MC Dropout,34,0,3
+MC Dropout,35,0,3
+MC Dropout,36,0,3
+MC Dropout,37,0,3
+MC Dropout,38,0,3
+MC Dropout,39,0,3
+MC Dropout,40,0,3
+MC Dropout,41,0,3
+MC Dropout,42,0,3
+MC Dropout,43,0,3
+MC Dropout,44,0,3
+MC Dropout,45,0,3
+MC Dropout,46,1,4
+MC Dropout,47,0,4
+MC Dropout,48,1,5
+MC Dropout,49,0,5
+MC Dropout,50,0,5
+MC Dropout,51,0,5
+MC Dropout,52,0,5
+MC Dropout,53,0,5
+MC Dropout,54,0,5
+MC Dropout,55,0,5
+MC Dropout,56,0,5
+MC Dropout,57,0,5
+MC Dropout,58,0,5
+MC Dropout,59,0,5
+MC Dropout,60,0,5
+MC Dropout,61,1,6
+MC Dropout,62,0,6
+MC Dropout,63,0,6
+MC Dropout,64,0,6
+MC Dropout,65,0,6
+MC Dropout,66,0,6
+MC Dropout,67,0,6
+MC Dropout,68,1,7
+MC Dropout,69,0,7
+MC Dropout,70,0,7
+MC Dropout,71,0,7
+MC Dropout,72,0,7
+MC Dropout,73,0,7
+MC Dropout,74,0,7
+MC Dropout,75,0,7
+MC Dropout,76,0,7
+MC Dropout,77,0,7
+MC Dropout,78,0,7
+MC Dropout,79,1,8
+MC Dropout,80,0,8
+MC Dropout,81,0,8
+MC Dropout,82,0,8
+MC Dropout,83,0,8
+MC Dropout,84,0,8
+MC Dropout,85,0,8
+MC Dropout,86,0,8
+MC Dropout,87,0,8
+MC Dropout,88,0,8
+MC Dropout,89,1,9
+MC Dropout,90,1,10
+MC Dropout,91,1,11
+MC Dropout,92,1,12
+MC Dropout,93,0,12
+MC Dropout,94,0,12
+MC Dropout,95,0,12
+MC Dropout,96,1,13
+MC Dropout,97,0,13
+MC Dropout,98,0,13
+MC Dropout,99,0,13
+MC Dropout,100,1,14
+MC Dropout,101,0,14
+MC Dropout,102,0,14
+MC Dropout,103,0,14
+MC Dropout,104,0,14
+MC Dropout,105,1,15
+MC Dropout,106,1,16
+MC Dropout,107,1,17
+MC Dropout,108,1,18
+MC Dropout,109,1,19
+MC Dropout,110,1,20
+MC Dropout,111,1,21
+MC Dropout,112,0,21
+MC Dropout,113,0,21
+MC Dropout,114,0,21
+MC Dropout,115,0,21
+MC Dropout,116,0,21
+MC Dropout,117,0,21
+MC Dropout,118,0,21
+MC Dropout,119,0,21
+MC Dropout,120,0,21
+MC Dropout,121,1,22
+MC Dropout,122,0,22
+MC Dropout,123,1,23
+MC Dropout,124,0,23
+MC Dropout,125,0,23
+MC Dropout,126,0,23
+MC Dropout,127,0,23
+MC Dropout,128,1,24
+MC Dropout,129,0,24
+MC Dropout,130,0,24
+MC Dropout,131,0,24
+MC Dropout,132,1,25
+MC Dropout,133,0,25
+MC Dropout,134,0,25
+MC Dropout,135,0,25
+MC Dropout,136,0,25
+MC Dropout,137,0,25
+MC Dropout,138,0,25
+MC Dropout,139,0,25
+MC Dropout,140,0,25
+MC Dropout,141,0,25
+MC Dropout,142,0,25
+MC Dropout,143,0,25
+MC Dropout,144,1,26
+MC Dropout,145,0,26
+MC Dropout,146,0,26
+MC Dropout,147,0,26
+MC Dropout,148,0,26
+MC Dropout,149,0,26
+MC Dropout,150,0,26
+MC Dropout,151,0,26
+MC Dropout,152,1,27
+MC Dropout,153,0,27
+MC Dropout,154,0,27
+MC Dropout,155,0,27
+MC Dropout,156,0,27
+MC Dropout,157,0,27
+MC Dropout,158,0,27
+MC Dropout,159,0,27
+MC Dropout,160,0,27
+MC Dropout,161,0,27
+MC Dropout,162,0,27
+MC Dropout,163,0,27
+MC Dropout,164,0,27
+MC Dropout,165,0,27
+MC Dropout,166,0,27
+MC Dropout,167,0,27
+MC Dropout,168,0,27
+MC Dropout,169,1,28
+MC Dropout,170,0,28
+MC Dropout,171,0,28
+MC Dropout,172,0,28
+MC Dropout,173,0,28
+MC Dropout,174,0,28
+MC Dropout,175,0,28
+MC Dropout,176,0,28
+MC Dropout,177,0,28
+MC Dropout,178,0,28
+MC Dropout,179,0,28
+MC Dropout,180,0,28
+MC Dropout,181,0,28
+MC Dropout,182,0,28
+MC Dropout,183,0,28
+MC Dropout,184,0,28
+MC Dropout,185,0,28
+MC Dropout,186,0,28
+MC Dropout,187,1,29
+MC Dropout,188,0,29
+MC Dropout,189,0,29
+MC Dropout,190,0,29
+MC Dropout,191,0,29
+MC Dropout,192,0,29
+MC Dropout,193,0,29
+MC Dropout,194,0,29
+MC Dropout,195,0,29
+MC Dropout,196,0,29
+MC Dropout,197,0,29
+MC Dropout,198,0,29
+MC Dropout,199,0,29
+MC Dropout,200,0,29
+MC Dropout,201,0,29
+MC Dropout,202,0,29
+MC Dropout,203,0,29
+MC Dropout,204,0,29
+MC Dropout,205,0,29
+MC Dropout,206,0,29
+MC Dropout,207,0,29
+MC Dropout,208,0,29
+MC Dropout,209,0,29
+MC Dropout,210,0,29
+MC Dropout,211,0,29
+MC Dropout,212,0,29
+MC Dropout,213,0,29
+MC Dropout,214,0,29
+MC Dropout,215,0,29
+MC Dropout,216,0,29
+MC Dropout,217,0,29
+MC Dropout,218,0,29
+MC Dropout,219,0,29
+MC Dropout,220,0,29
+MC Dropout,221,0,29
+MC Dropout,222,0,29
+MC Dropout,223,0,29
+MC Dropout,224,1,30
+MC Dropout,225,0,30
+MC Dropout,226,0,30
+MC Dropout,227,0,30
+MC Dropout,228,0,30
+MC Dropout,229,0,30
+MC Dropout,230,0,30
+MC Dropout,231,0,30
+MC Dropout,232,0,30
+MC Dropout,233,1,31
+MC Dropout,234,1,32
+MC Dropout,235,1,33
+MC Dropout,236,1,34
+MC Dropout,237,0,34
+MC Dropout,238,1,35
+MC Dropout,239,1,36
+MC Dropout,240,0,36
+MC Dropout,241,0,36
+MC Dropout,242,0,36
+MC Dropout,243,0,36
+MC Dropout,244,0,36
+MC Dropout,245,0,36
+MC Dropout,246,0,36
+MC Dropout,247,0,36
+MC Dropout,248,0,36
+MC Dropout,249,0,36
+MC Dropout,250,0,36
+MC Dropout,251,0,36
+MC Dropout,252,0,36
+MC Dropout,253,1,37
+MC Dropout,254,0,37
+MC Dropout,255,0,37
+MC Dropout,256,0,37
+MC Dropout,257,0,37
+MC Dropout,258,0,37
+MC Dropout,259,0,37
+MC Dropout,260,0,37
+MC Dropout,261,0,37
+MC Dropout,262,0,37
+MC Dropout,263,0,37
+MC Dropout,264,0,37
+MC Dropout,265,1,38
+MC Dropout,266,1,39
+MC Dropout,267,1,40
+MC Dropout,268,0,40
+MC Dropout,269,0,40
+MC Dropout,270,1,41
+MC Dropout,271,1,42
+MC Dropout,272,1,43
+MC Dropout,273,0,43
+MC Dropout,274,0,43
+MC Dropout,275,0,43
+MC Dropout,276,0,43
+MC Dropout,277,0,43
+MC Dropout,278,0,43
+MC Dropout,279,0,43
+MC Dropout,280,0,43
+MC Dropout,281,0,43
+MC Dropout,282,0,43
+MC Dropout,283,1,44
+MC Dropout,284,0,44
+MC Dropout,285,0,44
+MC Dropout,286,0,44
+MC Dropout,287,0,44
+MC Dropout,288,0,44
+MC Dropout,289,1,45
+MC Dropout,290,0,45
+MC Dropout,291,0,45
+MC Dropout,292,0,45
+MC Dropout,293,0,45
+MC Dropout,294,0,45
+MC Dropout,295,0,45
+MC Dropout,296,0,45
+MC Dropout,297,0,45
+MC Dropout,298,0,45
+MC Dropout,299,0,45
+MC Dropout,300,0,45
+MC Dropout,301,1,46
+MC Dropout,302,1,47
+MC Dropout,303,0,47
+MC Dropout,304,0,47
+MC Dropout,305,0,47
+MC Dropout,306,0,47
+MC Dropout,307,0,47
+MC Dropout,308,0,47
+MC Dropout,309,0,47
+MC Dropout,310,0,47
+MC Dropout,311,0,47
+MC Dropout,312,0,47
+MC Dropout,313,0,47
+MC Dropout,314,1,48
+MC Dropout,315,0,48
+MC Dropout,316,0,48
+MC Dropout,317,0,48
+MC Dropout,318,1,49
+MC Dropout,319,0,49
+MC Dropout,320,0,49
+Modulus / Gradient-Norm Hybrid,0,0,0
+Modulus / Gradient-Norm Hybrid,1,0,0
+Modulus / Gradient-Norm Hybrid,2,0,0
+Modulus / Gradient-Norm Hybrid,3,0,0
+Modulus / Gradient-Norm Hybrid,4,0,0
+Modulus / Gradient-Norm Hybrid,5,0,0
+Modulus / Gradient-Norm Hybrid,6,0,0
+Modulus / Gradient-Norm Hybrid,7,0,0
+Modulus / Gradient-Norm Hybrid,8,0,0
+Modulus / Gradient-Norm Hybrid,9,1,1
+Modulus / Gradient-Norm Hybrid,10,0,1
+Modulus / Gradient-Norm Hybrid,11,0,1
+Modulus / Gradient-Norm Hybrid,12,0,1
+Modulus / Gradient-Norm Hybrid,13,0,1
+Modulus / Gradient-Norm Hybrid,14,0,1
+Modulus / Gradient-Norm Hybrid,15,0,1
+Modulus / Gradient-Norm Hybrid,16,1,2
+Modulus / Gradient-Norm Hybrid,17,0,2
+Modulus / Gradient-Norm Hybrid,18,0,2
+Modulus / Gradient-Norm Hybrid,19,0,2
+Modulus / Gradient-Norm Hybrid,20,0,2
+Modulus / Gradient-Norm Hybrid,21,0,2
+Modulus / Gradient-Norm Hybrid,22,0,2
+Modulus / Gradient-Norm Hybrid,23,0,2
+Modulus / Gradient-Norm Hybrid,24,0,2
+Modulus / Gradient-Norm Hybrid,25,0,2
+Modulus / Gradient-Norm Hybrid,26,0,2
+Modulus / Gradient-Norm Hybrid,27,1,3
+Modulus / Gradient-Norm Hybrid,28,0,3
+Modulus / Gradient-Norm Hybrid,29,0,3
+Modulus / Gradient-Norm Hybrid,30,0,3
+Modulus / Gradient-Norm Hybrid,31,1,4
+Modulus / Gradient-Norm Hybrid,32,1,5
+Modulus / Gradient-Norm Hybrid,33,0,5
+Modulus / Gradient-Norm Hybrid,34,0,5
+Modulus / Gradient-Norm Hybrid,35,0,5
+Modulus / Gradient-Norm Hybrid,36,0,5
+Modulus / Gradient-Norm Hybrid,37,0,5
+Modulus / Gradient-Norm Hybrid,38,0,5
+Modulus / Gradient-Norm Hybrid,39,0,5
+Modulus / Gradient-Norm Hybrid,40,0,5
+Modulus / Gradient-Norm Hybrid,41,0,5
+Modulus / Gradient-Norm Hybrid,42,0,5
+Modulus / Gradient-Norm Hybrid,43,0,5
+Modulus / Gradient-Norm Hybrid,44,0,5
+Modulus / Gradient-Norm Hybrid,45,0,5
+Modulus / Gradient-Norm Hybrid,46,0,5
+Modulus / Gradient-Norm Hybrid,47,0,5
+Modulus / Gradient-Norm Hybrid,48,0,5
+Modulus / Gradient-Norm Hybrid,49,0,5
+Modulus / Gradient-Norm Hybrid,50,0,5
+Modulus / Gradient-Norm Hybrid,51,0,5
+Modulus / Gradient-Norm Hybrid,52,0,5
+Modulus / Gradient-Norm Hybrid,53,0,5
+Modulus / Gradient-Norm Hybrid,54,0,5
+Modulus / Gradient-Norm Hybrid,55,0,5
+Modulus / Gradient-Norm Hybrid,56,0,5
+Modulus / Gradient-Norm Hybrid,57,0,5
+Modulus / Gradient-Norm Hybrid,58,0,5
+Modulus / Gradient-Norm Hybrid,59,0,5
+Modulus / Gradient-Norm Hybrid,60,0,5
+Modulus / Gradient-Norm Hybrid,61,0,5
+Modulus / Gradient-Norm Hybrid,62,1,6
+Modulus / Gradient-Norm Hybrid,63,0,6
+Modulus / Gradient-Norm Hybrid,64,1,7
+Modulus / Gradient-Norm Hybrid,65,0,7
+Modulus / Gradient-Norm Hybrid,66,0,7
+Modulus / Gradient-Norm Hybrid,67,0,7
+Modulus / Gradient-Norm Hybrid,68,0,7
+Modulus / Gradient-Norm Hybrid,69,0,7
+Modulus / Gradient-Norm Hybrid,70,0,7
+Modulus / Gradient-Norm Hybrid,71,0,7
+Modulus / Gradient-Norm Hybrid,72,0,7
+Modulus / Gradient-Norm Hybrid,73,1,8
+Modulus / Gradient-Norm Hybrid,74,0,8
+Modulus / Gradient-Norm Hybrid,75,0,8
+Modulus / Gradient-Norm Hybrid,76,1,9
+Modulus / Gradient-Norm Hybrid,77,0,9
+Modulus / Gradient-Norm Hybrid,78,1,10
+Modulus / Gradient-Norm Hybrid,79,0,10
+Modulus / Gradient-Norm Hybrid,80,0,10
+Modulus / Gradient-Norm Hybrid,81,0,10
+Modulus / Gradient-Norm Hybrid,82,0,10
+Modulus / Gradient-Norm Hybrid,83,0,10
+Modulus / Gradient-Norm Hybrid,84,0,10
+Modulus / Gradient-Norm Hybrid,85,0,10
+Modulus / Gradient-Norm Hybrid,86,0,10
+Modulus / Gradient-Norm Hybrid,87,0,10
+Modulus / Gradient-Norm Hybrid,88,0,10
+Modulus / Gradient-Norm Hybrid,89,0,10
+Modulus / Gradient-Norm Hybrid,90,0,10
+Modulus / Gradient-Norm Hybrid,91,0,10
+Modulus / Gradient-Norm Hybrid,92,0,10
+Modulus / Gradient-Norm Hybrid,93,1,11
+Modulus / Gradient-Norm Hybrid,94,0,11
+Modulus / Gradient-Norm Hybrid,95,1,12
+Modulus / Gradient-Norm Hybrid,96,0,12
+Modulus / Gradient-Norm Hybrid,97,0,12
+Modulus / Gradient-Norm Hybrid,98,0,12
+Modulus / Gradient-Norm Hybrid,99,0,12
+Modulus / Gradient-Norm Hybrid,100,0,12
+Modulus / Gradient-Norm Hybrid,101,0,12
+Modulus / Gradient-Norm Hybrid,102,0,12
+Modulus / Gradient-Norm Hybrid,103,0,12
+Modulus / Gradient-Norm Hybrid,104,0,12
+Modulus / Gradient-Norm Hybrid,105,0,12
+Modulus / Gradient-Norm Hybrid,106,0,12
+Modulus / Gradient-Norm Hybrid,107,0,12
+Modulus / Gradient-Norm Hybrid,108,0,12
+Modulus / Gradient-Norm Hybrid,109,0,12
+Modulus / Gradient-Norm Hybrid,110,0,12
+Modulus / Gradient-Norm Hybrid,111,0,12
+Modulus / Gradient-Norm Hybrid,112,0,12
+Modulus / Gradient-Norm Hybrid,113,0,12
+Modulus / Gradient-Norm Hybrid,114,0,12
+Modulus / Gradient-Norm Hybrid,115,0,12
+Modulus / Gradient-Norm Hybrid,116,0,12
+Modulus / Gradient-Norm Hybrid,117,0,12
+Modulus / Gradient-Norm Hybrid,118,0,12
+Modulus / Gradient-Norm Hybrid,119,0,12
+Modulus / Gradient-Norm Hybrid,120,0,12
+Modulus / Gradient-Norm Hybrid,121,1,13
+Modulus / Gradient-Norm Hybrid,122,1,14
+Modulus / Gradient-Norm Hybrid,123,0,14
+Modulus / Gradient-Norm Hybrid,124,1,15
+Modulus / Gradient-Norm Hybrid,125,0,15
+Modulus / Gradient-Norm Hybrid,126,1,16
+Modulus / Gradient-Norm Hybrid,127,0,16
+Modulus / Gradient-Norm Hybrid,128,0,16
+Modulus / Gradient-Norm Hybrid,129,0,16
+Modulus / Gradient-Norm Hybrid,130,0,16
+Modulus / Gradient-Norm Hybrid,131,0,16
+Modulus / Gradient-Norm Hybrid,132,0,16
+Modulus / Gradient-Norm Hybrid,133,0,16
+Modulus / Gradient-Norm Hybrid,134,0,16
+Modulus / Gradient-Norm Hybrid,135,0,16
+Modulus / Gradient-Norm Hybrid,136,0,16
+Modulus / Gradient-Norm Hybrid,137,1,17
+Modulus / Gradient-Norm Hybrid,138,0,17
+Modulus / Gradient-Norm Hybrid,139,0,17
+Modulus / Gradient-Norm Hybrid,140,0,17
+Modulus / Gradient-Norm Hybrid,141,0,17
+Modulus / Gradient-Norm Hybrid,142,0,17
+Modulus / Gradient-Norm Hybrid,143,1,18
+Modulus / Gradient-Norm Hybrid,144,0,18
+Modulus / Gradient-Norm Hybrid,145,0,18
+Modulus / Gradient-Norm Hybrid,146,0,18
+Modulus / Gradient-Norm Hybrid,147,0,18
+Modulus / Gradient-Norm Hybrid,148,0,18
+Modulus / Gradient-Norm Hybrid,149,0,18
+Modulus / Gradient-Norm Hybrid,150,0,18
+Modulus / Gradient-Norm Hybrid,151,0,18
+Modulus / Gradient-Norm Hybrid,152,0,18
+Modulus / Gradient-Norm Hybrid,153,1,19
+Modulus / Gradient-Norm Hybrid,154,0,19
+Modulus / Gradient-Norm Hybrid,155,0,19
+Modulus / Gradient-Norm Hybrid,156,0,19
+Modulus / Gradient-Norm Hybrid,157,0,19
+Modulus / Gradient-Norm Hybrid,158,0,19
+Modulus / Gradient-Norm Hybrid,159,1,20
+Modulus / Gradient-Norm Hybrid,160,0,20
+Modulus / Gradient-Norm Hybrid,161,0,20
+Modulus / Gradient-Norm Hybrid,162,0,20
+Modulus / Gradient-Norm Hybrid,163,0,20
+Modulus / Gradient-Norm Hybrid,164,0,20
+Modulus / Gradient-Norm Hybrid,165,0,20
+Modulus / Gradient-Norm Hybrid,166,0,20
+Modulus / Gradient-Norm Hybrid,167,0,20
+Modulus / Gradient-Norm Hybrid,168,0,20
+Modulus / Gradient-Norm Hybrid,169,1,21
+Modulus / Gradient-Norm Hybrid,170,1,22
+Modulus / Gradient-Norm Hybrid,171,0,22
+Modulus / Gradient-Norm Hybrid,172,0,22
+Modulus / Gradient-Norm Hybrid,173,0,22
+Modulus / Gradient-Norm Hybrid,174,0,22
+Modulus / Gradient-Norm Hybrid,175,0,22
+Modulus / Gradient-Norm Hybrid,176,0,22
+Modulus / Gradient-Norm Hybrid,177,0,22
+Modulus / Gradient-Norm Hybrid,178,0,22
+Modulus / Gradient-Norm Hybrid,179,0,22
+Modulus / Gradient-Norm Hybrid,180,0,22
+Modulus / Gradient-Norm Hybrid,181,0,22
+Modulus / Gradient-Norm Hybrid,182,0,22
+Modulus / Gradient-Norm Hybrid,183,0,22
+Modulus / Gradient-Norm Hybrid,184,0,22
+Modulus / Gradient-Norm Hybrid,185,0,22
+Modulus / Gradient-Norm Hybrid,186,0,22
+Modulus / Gradient-Norm Hybrid,187,1,23
+Modulus / Gradient-Norm Hybrid,188,1,24
+Modulus / Gradient-Norm Hybrid,189,0,24
+Modulus / Gradient-Norm Hybrid,190,1,25
+Modulus / Gradient-Norm Hybrid,191,0,25
+Modulus / Gradient-Norm Hybrid,192,0,25
+Modulus / Gradient-Norm Hybrid,193,0,25
+Modulus / Gradient-Norm Hybrid,194,0,25
+Modulus / Gradient-Norm Hybrid,195,0,25
+Modulus / Gradient-Norm Hybrid,196,0,25
+Modulus / Gradient-Norm Hybrid,197,0,25
+Modulus / Gradient-Norm Hybrid,198,0,25
+Modulus / Gradient-Norm Hybrid,199,0,25
+Modulus / Gradient-Norm Hybrid,200,0,25
+Modulus / Gradient-Norm Hybrid,201,0,25
+Modulus / Gradient-Norm Hybrid,202,0,25
+Modulus / Gradient-Norm Hybrid,203,1,26
+Modulus / Gradient-Norm Hybrid,204,1,27
+Modulus / Gradient-Norm Hybrid,205,1,28
+Modulus / Gradient-Norm Hybrid,206,1,29
+Modulus / Gradient-Norm Hybrid,207,1,30
+Modulus / Gradient-Norm Hybrid,208,1,31
+Modulus / Gradient-Norm Hybrid,209,0,31
+Modulus / Gradient-Norm Hybrid,210,0,31
+Modulus / Gradient-Norm Hybrid,211,0,31
+Modulus / Gradient-Norm Hybrid,212,0,31
+Modulus / Gradient-Norm Hybrid,213,0,31
+Modulus / Gradient-Norm Hybrid,214,0,31
+Modulus / Gradient-Norm Hybrid,215,0,31
+Modulus / Gradient-Norm Hybrid,216,0,31
+Modulus / Gradient-Norm Hybrid,217,0,31
+Modulus / Gradient-Norm Hybrid,218,1,32
+Modulus / Gradient-Norm Hybrid,219,0,32
+Modulus / Gradient-Norm Hybrid,220,1,33
+Modulus / Gradient-Norm Hybrid,221,1,34
+Modulus / Gradient-Norm Hybrid,222,0,34
+Modulus / Gradient-Norm Hybrid,223,1,35
+Modulus / Gradient-Norm Hybrid,224,1,36
+Modulus / Gradient-Norm Hybrid,225,0,36
+Modulus / Gradient-Norm Hybrid,226,0,36
+Modulus / Gradient-Norm Hybrid,227,0,36
+Modulus / Gradient-Norm Hybrid,228,0,36
+Modulus / Gradient-Norm Hybrid,229,0,36
+Modulus / Gradient-Norm Hybrid,230,0,36
+Modulus / Gradient-Norm Hybrid,231,0,36
+Modulus / Gradient-Norm Hybrid,232,0,36
+Modulus / Gradient-Norm Hybrid,233,1,37
+Modulus / Gradient-Norm Hybrid,234,0,37
+Modulus / Gradient-Norm Hybrid,235,1,38
+Modulus / Gradient-Norm Hybrid,236,0,38
+Modulus / Gradient-Norm Hybrid,237,1,39
+Modulus / Gradient-Norm Hybrid,238,0,39
+Modulus / Gradient-Norm Hybrid,239,0,39
+Modulus / Gradient-Norm Hybrid,240,0,39
+Modulus / Gradient-Norm Hybrid,241,0,39
+Modulus / Gradient-Norm Hybrid,242,0,39
+Modulus / Gradient-Norm Hybrid,243,0,39
+Modulus / Gradient-Norm Hybrid,244,0,39
+Modulus / Gradient-Norm Hybrid,245,0,39
+Modulus / Gradient-Norm Hybrid,246,0,39
+Modulus / Gradient-Norm Hybrid,247,0,39
+Modulus / Gradient-Norm Hybrid,248,0,39
+Modulus / Gradient-Norm Hybrid,249,1,40
+Modulus / Gradient-Norm Hybrid,250,1,41
+Modulus / Gradient-Norm Hybrid,251,1,42
+Modulus / Gradient-Norm Hybrid,252,1,43
+Modulus / Gradient-Norm Hybrid,253,1,44
+Modulus / Gradient-Norm Hybrid,254,0,44
+Modulus / Gradient-Norm Hybrid,255,1,45
+Modulus / Gradient-Norm Hybrid,256,1,46
+Modulus / Gradient-Norm Hybrid,257,0,46
+Modulus / Gradient-Norm Hybrid,258,0,46
+Modulus / Gradient-Norm Hybrid,259,0,46
+Modulus / Gradient-Norm Hybrid,260,0,46
+Modulus / Gradient-Norm Hybrid,261,0,46
+Modulus / Gradient-Norm Hybrid,262,0,46
+Modulus / Gradient-Norm Hybrid,263,0,46
+Modulus / Gradient-Norm Hybrid,264,0,46
+Modulus / Gradient-Norm Hybrid,265,1,47
+Modulus / Gradient-Norm Hybrid,266,1,48
+Modulus / Gradient-Norm Hybrid,267,1,49
+Modulus / Gradient-Norm Hybrid,268,1,50
+Modulus / Gradient-Norm Hybrid,269,1,51
+Modulus / Gradient-Norm Hybrid,270,1,52
+Modulus / Gradient-Norm Hybrid,271,0,52
+Modulus / Gradient-Norm Hybrid,272,0,52
+Modulus / Gradient-Norm Hybrid,273,0,52
+Modulus / Gradient-Norm Hybrid,274,0,52
+Modulus / Gradient-Norm Hybrid,275,0,52
+Modulus / Gradient-Norm Hybrid,276,0,52
+Modulus / Gradient-Norm Hybrid,277,0,52
+Modulus / Gradient-Norm Hybrid,278,0,52
+Modulus / Gradient-Norm Hybrid,279,0,52
+Modulus / Gradient-Norm Hybrid,280,0,52
+Modulus / Gradient-Norm Hybrid,281,0,52
+Modulus / Gradient-Norm Hybrid,282,1,53
+Modulus / Gradient-Norm Hybrid,283,1,54
+Modulus / Gradient-Norm Hybrid,284,0,54
+Modulus / Gradient-Norm Hybrid,285,0,54
+Modulus / Gradient-Norm Hybrid,286,0,54
+Modulus / Gradient-Norm Hybrid,287,0,54
+Modulus / Gradient-Norm Hybrid,288,0,54
+Modulus / Gradient-Norm Hybrid,289,0,54
+Modulus / Gradient-Norm Hybrid,290,0,54
+Modulus / Gradient-Norm Hybrid,291,0,54
+Modulus / Gradient-Norm Hybrid,292,0,54
+Modulus / Gradient-Norm Hybrid,293,0,54
+Modulus / Gradient-Norm Hybrid,294,0,54
+Modulus / Gradient-Norm Hybrid,295,0,54
+Modulus / Gradient-Norm Hybrid,296,0,54
+Modulus / Gradient-Norm Hybrid,297,0,54
+Modulus / Gradient-Norm Hybrid,298,0,54
+Modulus / Gradient-Norm Hybrid,299,1,55
+Modulus / Gradient-Norm Hybrid,300,1,56
+Modulus / Gradient-Norm Hybrid,301,0,56
+Modulus / Gradient-Norm Hybrid,302,0,56
+Modulus / Gradient-Norm Hybrid,303,0,56
+Modulus / Gradient-Norm Hybrid,304,0,56
+Modulus / Gradient-Norm Hybrid,305,0,56
+Modulus / Gradient-Norm Hybrid,306,0,56
+Modulus / Gradient-Norm Hybrid,307,0,56
+Modulus / Gradient-Norm Hybrid,308,0,56
+Modulus / Gradient-Norm Hybrid,309,0,56
+Modulus / Gradient-Norm Hybrid,310,0,56
+Modulus / Gradient-Norm Hybrid,311,0,56
+Modulus / Gradient-Norm Hybrid,312,0,56
+Modulus / Gradient-Norm Hybrid,313,0,56
+Modulus / Gradient-Norm Hybrid,314,1,57
+Modulus / Gradient-Norm Hybrid,315,0,57
+Modulus / Gradient-Norm Hybrid,316,0,57
+Modulus / Gradient-Norm Hybrid,317,1,58
+Modulus / Gradient-Norm Hybrid,318,0,58
+Modulus / Gradient-Norm Hybrid,319,0,58
+Modulus / Gradient-Norm Hybrid,320,0,58
+Random Sampling,0,0,0
+Random Sampling,1,0,0
+Random Sampling,2,0,0
+Random Sampling,3,0,0
+Random Sampling,4,0,0
+Random Sampling,5,0,0
+Random Sampling,6,0,0
+Random Sampling,7,0,0
+Random Sampling,8,0,0
+Random Sampling,9,0,0
+Random Sampling,10,0,0
+Random Sampling,11,0,0
+Random Sampling,12,0,0
+Random Sampling,13,0,0
+Random Sampling,14,0,0
+Random Sampling,15,0,0
+Random Sampling,16,0,0
+Random Sampling,17,0,0
+Random Sampling,18,1,1
+Random Sampling,19,0,1
+Random Sampling,20,1,2
+Random Sampling,21,0,2
+Random Sampling,22,0,2
+Random Sampling,23,0,2
+Random Sampling,24,0,2
+Random Sampling,25,0,2
+Random Sampling,26,0,2
+Random Sampling,27,1,3
+Random Sampling,28,0,3
+Random Sampling,29,0,3
+Random Sampling,30,0,3
+Random Sampling,31,0,3
+Random Sampling,32,0,3
+Random Sampling,33,0,3
+Random Sampling,34,0,3
+Random Sampling,35,0,3
+Random Sampling,36,0,3
+Random Sampling,37,0,3
+Random Sampling,38,0,3
+Random Sampling,39,0,3
+Random Sampling,40,0,3
+Random Sampling,41,0,3
+Random Sampling,42,0,3
+Random Sampling,43,0,3
+Random Sampling,44,0,3
+Random Sampling,45,0,3
+Random Sampling,46,0,3
+Random Sampling,47,0,3
+Random Sampling,48,0,3
+Random Sampling,49,0,3
+Random Sampling,50,0,3
+Random Sampling,51,0,3
+Random Sampling,52,0,3
+Random Sampling,53,0,3
+Random Sampling,54,0,3
+Random Sampling,55,0,3
+Random Sampling,56,0,3
+Random Sampling,57,0,3
+Random Sampling,58,1,4
+Random Sampling,59,0,4
+Random Sampling,60,0,4
+Random Sampling,61,1,5
+Random Sampling,62,0,5
+Random Sampling,63,0,5
+Random Sampling,64,0,5
+Random Sampling,65,0,5
+Random Sampling,66,0,5
+Random Sampling,67,0,5
+Random Sampling,68,0,5
+Random Sampling,69,0,5
+Random Sampling,70,0,5
+Random Sampling,71,0,5
+Random Sampling,72,0,5
+Random Sampling,73,0,5
+Random Sampling,74,0,5
+Random Sampling,75,0,5
+Random Sampling,76,0,5
+Random Sampling,77,0,5
+Random Sampling,78,0,5
+Random Sampling,79,0,5
+Random Sampling,80,1,6
+Random Sampling,81,0,6
+Random Sampling,82,0,6
+Random Sampling,83,0,6
+Random Sampling,84,0,6
+Random Sampling,85,0,6
+Random Sampling,86,1,7
+Random Sampling,87,0,7
+Random Sampling,88,1,8
+Random Sampling,89,0,8
+Random Sampling,90,0,8
+Random Sampling,91,1,9
+Random Sampling,92,0,9
+Random Sampling,93,0,9
+Random Sampling,94,0,9
+Random Sampling,95,1,10
+Random Sampling,96,1,11
+Random Sampling,97,0,11
+Random Sampling,98,0,11
+Random Sampling,99,0,11
+Random Sampling,100,1,12
+Random Sampling,101,0,12
+Random Sampling,102,0,12
+Random Sampling,103,0,12
+Random Sampling,104,0,12
+Random Sampling,105,0,12
+Random Sampling,106,0,12
+Random Sampling,107,0,12
+Random Sampling,108,0,12
+Random Sampling,109,0,12
+Random Sampling,110,0,12
+Random Sampling,111,0,12
+Random Sampling,112,0,12
+Random Sampling,113,0,12
+Random Sampling,114,0,12
+Random Sampling,115,0,12
+Random Sampling,116,0,12
+Random Sampling,117,0,12
+Random Sampling,118,0,12
+Random Sampling,119,0,12
+Random Sampling,120,0,12
+Random Sampling,121,0,12
+Random Sampling,122,0,12
+Random Sampling,123,1,13
+Random Sampling,124,0,13
+Random Sampling,125,0,13
+Random Sampling,126,0,13
+Random Sampling,127,0,13
+Random Sampling,128,1,14
+Random Sampling,129,0,14
+Random Sampling,130,0,14
+Random Sampling,131,0,14
+Random Sampling,132,1,15
+Random Sampling,133,1,16
+Random Sampling,134,0,16
+Random Sampling,135,0,16
+Random Sampling,136,0,16
+Random Sampling,137,1,17
+Random Sampling,138,1,18
+Random Sampling,139,0,18
+Random Sampling,140,0,18
+Random Sampling,141,0,18
+Random Sampling,142,0,18
+Random Sampling,143,0,18
+Random Sampling,144,0,18
+Random Sampling,145,0,18
+Random Sampling,146,0,18
+Random Sampling,147,0,18
+Random Sampling,148,0,18
+Random Sampling,149,0,18
+Random Sampling,150,0,18
+Random Sampling,151,0,18
+Random Sampling,152,0,18
+Random Sampling,153,0,18
+Random Sampling,154,0,18
+Random Sampling,155,0,18
+Random Sampling,156,0,18
+Random Sampling,157,0,18
+Random Sampling,158,0,18
+Random Sampling,159,0,18
+Random Sampling,160,0,18
+Random Sampling,161,0,18
+Random Sampling,162,0,18
+Random Sampling,163,0,18
+Random Sampling,164,0,18
+Random Sampling,165,0,18
+Random Sampling,166,0,18
+Random Sampling,167,0,18
+Random Sampling,168,0,18
+Random Sampling,169,1,19
+Random Sampling,170,0,19
+Random Sampling,171,0,19
+Random Sampling,172,0,19
+Random Sampling,173,0,19
+Random Sampling,174,1,20
+Random Sampling,175,0,20
+Random Sampling,176,0,20
+Random Sampling,177,0,20
+Random Sampling,178,0,20
+Random Sampling,179,0,20
+Random Sampling,180,0,20
+Random Sampling,181,0,20
+Random Sampling,182,0,20
+Random Sampling,183,0,20
+Random Sampling,184,0,20
+Random Sampling,185,0,20
+Random Sampling,186,0,20
+Random Sampling,187,1,21
+Random Sampling,188,0,21
+Random Sampling,189,0,21
+Random Sampling,190,0,21
+Random Sampling,191,0,21
+Random Sampling,192,0,21
+Random Sampling,193,0,21
+Random Sampling,194,0,21
+Random Sampling,195,0,21
+Random Sampling,196,0,21
+Random Sampling,197,0,21
+Random Sampling,198,0,21
+Random Sampling,199,0,21
+Random Sampling,200,0,21
+Random Sampling,201,1,22
+Random Sampling,202,0,22
+Random Sampling,203,0,22
+Random Sampling,204,1,23
+Random Sampling,205,0,23
+Random Sampling,206,0,23
+Random Sampling,207,0,23
+Random Sampling,208,0,23
+Random Sampling,209,1,24
+Random Sampling,210,0,24
+Random Sampling,211,0,24
+Random Sampling,212,0,24
+Random Sampling,213,0,24
+Random Sampling,214,0,24
+Random Sampling,215,0,24
+Random Sampling,216,0,24
+Random Sampling,217,1,25
+Random Sampling,218,0,25
+Random Sampling,219,0,25
+Random Sampling,220,0,25
+Random Sampling,221,0,25
+Random Sampling,222,0,25
+Random Sampling,223,0,25
+Random Sampling,224,0,25
+Random Sampling,225,0,25
+Random Sampling,226,0,25
+Random Sampling,227,0,25
+Random Sampling,228,0,25
+Random Sampling,229,0,25
+Random Sampling,230,0,25
+Random Sampling,231,0,25
+Random Sampling,232,0,25
+Random Sampling,233,0,25
+Random Sampling,234,0,25
+Random Sampling,235,1,26
+Random Sampling,236,0,26
+Random Sampling,237,0,26
+Random Sampling,238,0,26
+Random Sampling,239,0,26
+Random Sampling,240,0,26
+Random Sampling,241,0,26
+Random Sampling,242,0,26
+Random Sampling,243,0,26
+Random Sampling,244,0,26
+Random Sampling,245,0,26
+Random Sampling,246,0,26
+Random Sampling,247,0,26
+Random Sampling,248,0,26
+Random Sampling,249,1,27
+Random Sampling,250,0,27
+Random Sampling,251,0,27
+Random Sampling,252,0,27
+Random Sampling,253,0,27
+Random Sampling,254,0,27
+Random Sampling,255,1,28
+Random Sampling,256,0,28
+Random Sampling,257,0,28
+Random Sampling,258,0,28
+Random Sampling,259,0,28
+Random Sampling,260,1,29
+Random Sampling,261,0,29
+Random Sampling,262,0,29
+Random Sampling,263,0,29
+Random Sampling,264,1,30
+Random Sampling,265,0,30
+Random Sampling,266,0,30
+Random Sampling,267,0,30
+Random Sampling,268,1,31
+Random Sampling,269,0,31
+Random Sampling,270,0,31
+Random Sampling,271,1,32
+Random Sampling,272,0,32
+Random Sampling,273,0,32
+Random Sampling,274,0,32
+Random Sampling,275,0,32
+Random Sampling,276,1,33
+Random Sampling,277,0,33
+Random Sampling,278,0,33
+Random Sampling,279,0,33
+Random Sampling,280,0,33
+Random Sampling,281,0,33
+Random Sampling,282,0,33
+Random Sampling,283,0,33
+Random Sampling,284,1,34
+Random Sampling,285,0,34
+Random Sampling,286,0,34
+Random Sampling,287,0,34
+Random Sampling,288,0,34
+Random Sampling,289,0,34
+Random Sampling,290,0,34
+Random Sampling,291,0,34
+Random Sampling,292,0,34
+Random Sampling,293,0,34
+Random Sampling,294,0,34
+Random Sampling,295,0,34
+Random Sampling,296,0,34
+Random Sampling,297,0,34
+Random Sampling,298,0,34
+Random Sampling,299,0,34
+Random Sampling,300,0,34
+Random Sampling,301,1,35
+Random Sampling,302,0,35
+Random Sampling,303,0,35
+Random Sampling,304,0,35
+Random Sampling,305,0,35
+Random Sampling,306,0,35
+Random Sampling,307,0,35
+Random Sampling,308,0,35
+Random Sampling,309,1,36
+Random Sampling,310,0,36
+Random Sampling,311,0,36
+Random Sampling,312,0,36
+Random Sampling,313,1,37
+Random Sampling,314,0,37
+Random Sampling,315,0,37
+Random Sampling,316,0,37
+Random Sampling,317,0,37
+Random Sampling,318,1,38
+Random Sampling,319,0,38
+Random Sampling,320,1,39

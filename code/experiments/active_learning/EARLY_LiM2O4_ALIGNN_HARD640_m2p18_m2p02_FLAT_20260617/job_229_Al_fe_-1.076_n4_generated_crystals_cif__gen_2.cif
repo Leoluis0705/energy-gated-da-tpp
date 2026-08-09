@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       LiAl2O4
+_chemical_formula_sum              "Li1 Al2 O4"
+_cell_length_a       2.862933037541833
+_cell_length_b       2.864833652110897
+_cell_length_c       9.9013671875
+_cell_angle_alpha    90.04816899495333
+_cell_angle_beta     90.03690601347068
+_cell_angle_gamma    120.09632596160654
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.8820673227310181  0.7363895177841187  0.26880428194999695  1.0000
+  Al  Al1       1.0  0.2144797295331955  0.4038705825805664  0.5566567182540894  1.0000
+  Al  Al2       1.0  0.216335192322731  0.4038823246955871  0.04151454567909241  1.0000
+  O   O1        1.0  0.5488100647926331  0.07017772644758224  0.1603061556816101  1.0000
+  O   O2        1.0  0.5466508865356445  0.06993520259857178  0.6509431600570679  1.0000
+  O   O3        1.0  0.8835846185684204  0.7380415201187134  0.4579737186431885  1.0000
+  O   O4        1.0  0.8828481435775757  0.7381194233894348  0.9574766159057617  1.0000

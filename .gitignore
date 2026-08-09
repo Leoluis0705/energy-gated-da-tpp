@@ -1,0 +1,36 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# LaTeX build products; source PDFs remain explicitly versioned.
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz
+
+# Local configuration and credentials.
+.env
+.env.*
+config/paths.local.yml
+*.pem
+*.key
+
+# VASP files that are either large or license restricted.
+POTCAR*
+WAVECAR*
+CHGCAR*
+OUTCAR*
+vasprun.xml*
+
+# Local validation products.
+results/validation/runtime/
+

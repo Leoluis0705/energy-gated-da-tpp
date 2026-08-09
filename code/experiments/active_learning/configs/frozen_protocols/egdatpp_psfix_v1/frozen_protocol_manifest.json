@@ -1,0 +1,50 @@
+{
+  "git_commit": "6dc3c08",
+  "protocol_version": "egdatpp_psfix_v1",
+  "protocols": [
+    {
+      "relative_path": "frozen_final_protocol.yaml",
+      "sha256": "2a8d0fb5114c0e2f2457d9887ff5cfc6b8c9ff701669f473e018984855fcac84"
+    },
+    {
+      "relative_path": "frozen_protocols/egdatpp_psfix_v1/limo_mc_k10.yaml",
+      "sha256": "0474d591e6bae6b7c739957912122d9e22efc6075c5ace7425abd2fbf9e063f4"
+    },
+    {
+      "relative_path": "frozen_protocols/egdatpp_psfix_v1/limo_mc_k3.yaml",
+      "sha256": "a792f3105929ab62e843ae092ead2b86c324bc09d52a1ebb43e389eaacc3e22e"
+    },
+    {
+      "relative_path": "frozen_protocols/egdatpp_psfix_v1/limo_mc_k30.yaml",
+      "sha256": "4bf7daf49faf6275615bd071307c4506a8d4d788286fd5b92e86a39aed1375f9"
+    },
+    {
+      "relative_path": "frozen_protocols/egdatpp_psfix_v1/mnoxide_block.yaml",
+      "sha256": "51e3123a91e96b0048e82915e10a3c8357e08b9c9429a687ff252b635a628827"
+    },
+    {
+      "relative_path": "frozen_protocols/egdatpp_psfix_v1/mnoxide_iupac.yaml",
+      "sha256": "84a7f116265b07ae7a63c9809830c3a8ef8a63a5b9a5c28dc7e39d00d968d55b"
+    },
+    {
+      "relative_path": "frozen_protocols/egdatpp_psfix_v1/mnoxide_original.yaml",
+      "sha256": "cd9bbcb87405f503ace94700ea7a3842b4d082b2658868ead7165c0a78b9beea"
+    }
+  ],
+  "selected_parameters": {
+    "G0": 0.5,
+    "M0": 0.75,
+    "alpha": 0.1,
+    "beta": 0.2,
+    "gamma": 0.05,
+    "mc_passes": 30
+  },
+  "source_evidence": {
+    "mc_selection_summary": "3aa3993f83dda8e8904103708760db904ed583c2c45c45786863957cb0b346ed",
+    "threshold_full": "5c08b48c15c94325dbb6d4f1181f6c28d714a8cfef7b763263d105c3a5726910",
+    "threshold_seed0": "8d1936c2de55ac96e06f5d98a5bc418e2a46c5592265225f513f5cb22678c001",
+    "tiebreak_policy": "32c3e122271f38f1124c561a8c6d571f3e10284c293c66607e21b14c2121f896",
+    "weight_full": "c3c5f3207704df01e9ffceb1d89d4ab5ccbbcb0613031aaf4e5538b17948d9d1",
+    "weight_seed0": "add99e8034da4d0d5dd9afc36ee697503c75cd6e17ad1322749ebc07f2162595"
+  }
+}

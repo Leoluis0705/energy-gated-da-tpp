@@ -1,0 +1,7 @@
+# Optional local paths for operations that are not part of the bounded public
+# evidence rebuild. Copy this file to paths.local.yml and edit locally.
+vasp_executable: null
+potcar_root: null
+raw_vasp_archive: null
+gpu_results_root: null
+

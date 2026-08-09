@@ -1,0 +1,11 @@
+seed,candidate_sequence_identical,target_recovery_path_identical,batch_candidate_sets_identical,batch_checkpoint_recovery_identical,gate_AUTC,greedy_AUTC,paired_AUTC_difference,gate_direct_rounds,gate_correction_rounds,effective_replacements
+5,False,False,True,True,0.45,0.45,0.0,19,1,0
+6,True,True,True,True,0.4509009009009009,0.4509009009009009,0.0,20,0,0
+7,True,True,True,True,0.4545045045045045,0.4545045045045045,0.0,20,0,0
+8,True,True,True,True,0.4504504504504504,0.4504504504504504,0.0,20,0,0
+9,True,True,True,True,0.4509009009009009,0.4509009009009009,0.0,20,0,0
+10,True,True,True,True,0.4504504504504504,0.4504504504504504,0.0,20,0,0
+11,True,True,True,True,0.45,0.45,0.0,20,0,0
+12,True,True,True,True,0.45,0.45,0.0,20,0,0
+13,True,True,True,True,0.4513513513513513,0.4513513513513513,0.0,20,0,0
+14,True,True,True,True,0.45,0.45,0.0,20,0,0

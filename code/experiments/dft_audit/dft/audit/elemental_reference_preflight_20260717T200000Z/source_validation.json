@@ -1,0 +1,229 @@
+[
+  {
+    "reference_id": "PBE_Li_metal",
+    "ISPIN": 1,
+    "MAGMOM": null,
+    "LDAU": false,
+    "LDAUU": [],
+    "NSW": 0,
+    "IBRION": -1,
+    "atom_count": 2,
+    "formula": "Li",
+    "lattice_abc_A": [
+      3.459446675273048,
+      3.459446675273048,
+      3.459446675273048
+    ],
+    "POTCAR_TITEL": "PAW_PBE Li_sv 10Sep2004",
+    "POTCAR_sha256": "201875120238865c2f235e24081bce20639c4ae21bc4e97e31f9e3b7cc8fb95b",
+    "source_complete": true,
+    "static_pass": true,
+    "paw_label_pass": true,
+    "ueff_pass": true
+  },
+  {
+    "reference_id": "PBE_Cr_metal",
+    "ISPIN": 2,
+    "MAGMOM": [
+      5.0,
+      5.0
+    ],
+    "LDAU": false,
+    "LDAUU": [],
+    "NSW": 0,
+    "IBRION": -1,
+    "atom_count": 2,
+    "formula": "Cr",
+    "lattice_abc_A": [
+      2.843260057801176,
+      2.843260057801176,
+      2.843260057801176
+    ],
+    "POTCAR_TITEL": "PAW_PBE Cr_pv 02Aug2007",
+    "POTCAR_sha256": "836672959fc86f3b167531577dbf63d7fb0b8d96aaf8b40fb3c4265879bd744b",
+    "source_complete": true,
+    "static_pass": true,
+    "paw_label_pass": true,
+    "ueff_pass": true
+  },
+  {
+    "reference_id": "PBE_Mn_metal",
+    "ISPIN": 2,
+    "MAGMOM": [
+      5.0,
+      5.0
+    ],
+    "LDAU": false,
+    "LDAUU": [],
+    "NSW": 0,
+    "IBRION": -1,
+    "atom_count": 2,
+    "formula": "Mn",
+    "lattice_abc_A": [
+      2.8014690236612436,
+      2.8014690236612436,
+      2.8014690236612436
+    ],
+    "POTCAR_TITEL": "PAW_PBE Mn_pv 02Aug2007",
+    "POTCAR_sha256": "5da6f925d338804d4244b231b43927f3fccb021320fc01db0f865b4eda5a756d",
+    "source_complete": true,
+    "static_pass": true,
+    "paw_label_pass": true,
+    "ueff_pass": true
+  },
+  {
+    "reference_id": "PBE_Mg_metal",
+    "ISPIN": 1,
+    "MAGMOM": null,
+    "LDAU": false,
+    "LDAUU": [],
+    "NSW": 0,
+    "IBRION": -1,
+    "atom_count": 2,
+    "formula": "Mg",
+    "lattice_abc_A": [
+      3.200025445617461,
+      3.200025445617461,
+      5.177798674416409
+    ],
+    "POTCAR_TITEL": "PAW_PBE Mg_pv 13Apr2007",
+    "POTCAR_sha256": "9c1ab7b832a2e0c6a472613699d255f5c01190d69448d45cb2d6283bcfff58ac",
+    "source_complete": true,
+    "static_pass": true,
+    "paw_label_pass": true,
+    "ueff_pass": true
+  },
+  {
+    "reference_id": "PBE_O2_molecule",
+    "ISPIN": 2,
+    "MAGMOM": [
+      2.0,
+      2.0
+    ],
+    "LDAU": false,
+    "LDAUU": [],
+    "NSW": 0,
+    "IBRION": -1,
+    "atom_count": 2,
+    "formula": "O2",
+    "lattice_abc_A": [
+      15.0,
+      15.0,
+      15.0
+    ],
+    "POTCAR_TITEL": "PAW_PBE O 08Apr2002",
+    "POTCAR_sha256": "8a74b9a1f5fdb3d0c3e0183c7873177abdbef07d407b310b7edcd9ed0a3eea64",
+    "source_complete": true,
+    "static_pass": true,
+    "paw_label_pass": true,
+    "ueff_pass": true
+  },
+  {
+    "reference_id": "GGA_U_Li_metal",
+    "ISPIN": 2,
+    "MAGMOM": [
+      0.6,
+      0.6
+    ],
+    "LDAU": true,
+    "LDAUU": [
+      0.0
+    ],
+    "NSW": 0,
+    "IBRION": -1,
+    "atom_count": 2,
+    "formula": "Li",
+    "lattice_abc_A": [
+      3.459446675273048,
+      3.459446675273048,
+      3.459446675273048
+    ],
+    "POTCAR_TITEL": "PAW_PBE Li_sv 10Sep2004",
+    "POTCAR_sha256": "201875120238865c2f235e24081bce20639c4ae21bc4e97e31f9e3b7cc8fb95b",
+    "source_complete": true,
+    "static_pass": true,
+    "paw_label_pass": true,
+    "ueff_pass": true
+  },
+  {
+    "reference_id": "GGA_U_Cr_metal",
+    "ISPIN": 2,
+    "MAGMOM": [
+      5.0,
+      5.0
+    ],
+    "LDAU": true,
+    "LDAUU": [
+      3.7
+    ],
+    "NSW": 0,
+    "IBRION": -1,
+    "atom_count": 2,
+    "formula": "Cr",
+    "lattice_abc_A": [
+      2.843260057801176,
+      2.843260057801176,
+      2.843260057801176
+    ],
+    "POTCAR_TITEL": "PAW_PBE Cr_pv 02Aug2007",
+    "POTCAR_sha256": "836672959fc86f3b167531577dbf63d7fb0b8d96aaf8b40fb3c4265879bd744b",
+    "source_complete": true,
+    "static_pass": true,
+    "paw_label_pass": true,
+    "ueff_pass": true
+  },
+  {
+    "reference_id": "GGA_U_Mn_metal",
+    "ISPIN": 2,
+    "MAGMOM": [
+      5.0,
+      5.0
+    ],
+    "LDAU": true,
+    "LDAUU": [
+      3.9
+    ],
+    "NSW": 0,
+    "IBRION": -1,
+    "atom_count": 2,
+    "formula": "Mn",
+    "lattice_abc_A": [
+      2.8014690236612436,
+      2.8014690236612436,
+      2.8014690236612436
+    ],
+    "POTCAR_TITEL": "PAW_PBE Mn_pv 02Aug2007",
+    "POTCAR_sha256": "5da6f925d338804d4244b231b43927f3fccb021320fc01db0f865b4eda5a756d",
+    "source_complete": true,
+    "static_pass": true,
+    "paw_label_pass": true,
+    "ueff_pass": true
+  },
+  {
+    "reference_id": "GGA_U_O2_molecule",
+    "ISPIN": 2,
+    "MAGMOM": [
+      0.6,
+      0.6
+    ],
+    "LDAU": true,
+    "LDAUU": [
+      0.0
+    ],
+    "NSW": 0,
+    "IBRION": -1,
+    "atom_count": 2,
+    "formula": "O2",
+    "lattice_abc_A": [
+      15.0,
+      15.0,
+      15.0
+    ],
+    "POTCAR_TITEL": "PAW_PBE O 08Apr2002",
+    "POTCAR_sha256": "8a74b9a1f5fdb3d0c3e0183c7873177abdbef07d407b310b7edcd9ed0a3eea64",
+    "source_complete": true,
+    "static_pass": true,
+    "paw_label_pass": true,
+    "ueff_pass": true
+  }
+]

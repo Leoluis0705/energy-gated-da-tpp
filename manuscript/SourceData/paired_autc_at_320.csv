@@ -1,0 +1,21 @@
+method,archived_run_id,implementation_seed,autc_320
+Energy-Gated DA-TPP,1,5,0.582692
+Energy-Gated DA-TPP,2,6,0.582051
+Energy-Gated DA-TPP,3,7,0.582692
+Energy-Gated DA-TPP,4,8,0.582692
+Energy-Gated DA-TPP,5,9,0.582692
+Energy-Gated DA-TPP,6,10,0.583333
+Energy-Gated DA-TPP,7,11,0.582051
+Energy-Gated DA-TPP,8,12,0.582051
+Energy-Gated DA-TPP,9,13,0.582051
+Energy-Gated DA-TPP,10,14,0.582051
+Predicted-Target Greedy,1,5,0.571795
+Predicted-Target Greedy,2,6,0.571154
+Predicted-Target Greedy,3,7,0.571795
+Predicted-Target Greedy,4,8,0.571154
+Predicted-Target Greedy,5,9,0.571154
+Predicted-Target Greedy,6,10,0.571795
+Predicted-Target Greedy,7,11,0.571154
+Predicted-Target Greedy,8,12,0.571795
+Predicted-Target Greedy,9,13,0.571154
+Predicted-Target Greedy,10,14,0.571795

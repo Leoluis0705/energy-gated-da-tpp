@@ -1,0 +1,12 @@
+{
+  "all_original_relaxation_artifacts_unavailable": true,
+  "candidate_count": 8,
+  "checked_at_utc": "2026-07-17T19:33:31.838028+00:00",
+  "outputs": [
+    "candidate_summary.csv",
+    "evidence_files.csv"
+  ],
+  "potcar_read_or_copied": false,
+  "python_version": "3.12.3",
+  "server_root": "/root/dft_limo/outputs/dft_candidate_selection"
+}

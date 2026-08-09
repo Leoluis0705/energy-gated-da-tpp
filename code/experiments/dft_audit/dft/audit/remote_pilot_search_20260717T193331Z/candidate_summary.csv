@@ -1,0 +1,9 @@
+candidate_id,candidate_directories_found,current_outcar_count,current_oszicar_count,relax_log_count,relaxation_outcar_count,relaxation_oszicar_count,original_relaxation_outcar_or_oszicar_found,classification
+job_029_Cr_fe_-1.337_n4_generated_crystals_cif__gen_2,3,2,2,2,0,0,False,original_relaxation_artifact_unavailable
+job_058_Cr_fe_-1.423_n4_generated_crystals_cif__gen_0,2,1,1,1,0,0,False,original_relaxation_artifact_unavailable
+job_073_Cr_fe_-1.375_n4_generated_crystals_cif__gen_0,3,2,2,2,0,0,False,original_relaxation_artifact_unavailable
+job_092_Cr_fe_-1.075_n4_generated_crystals_cif__gen_1,2,1,1,1,0,0,False,original_relaxation_artifact_unavailable
+job_148_Mn_fe_-0.904_n4_generated_crystals_cif__gen_1,3,2,2,2,0,0,False,original_relaxation_artifact_unavailable
+job_182_Cr_fe_-1.464_n4_generated_crystals_cif__gen_2,2,1,1,1,0,0,False,original_relaxation_artifact_unavailable
+job_201_Cr_fe_-1.216_n4_generated_crystals_cif__gen_2,2,1,1,1,0,0,False,original_relaxation_artifact_unavailable
+job_249_Cr_fe_-1.500_n4_generated_crystals_cif__gen_1,3,2,2,2,0,0,False,original_relaxation_artifact_unavailable

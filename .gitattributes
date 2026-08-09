@@ -1,0 +1,12 @@
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+*.tif binary
+*.pth.tar binary
+*.zip binary
+*.cif text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.tex text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf

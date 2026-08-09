@@ -1,0 +1,19 @@
+\begin{table}[H]
+\centering
+\caption{Development-cohort sensitivity of normalized AUTC and route activity.}
+\label{tab:parameter-sensitivity}
+\small
+\begin{tabular}{lcccccc}
+\toprule
+Summary point & $M_0$ & $G_0$ & AUTC$_{160}$ & AUTC$_{640}$ & $R_{80}$ & Correction rounds \\
+\midrule
+Archived thresholds & 1.00 & 0.50 & 0.3090 $\pm$ 0.0074 & 0.7913 $\pm$ 0.0091 & 27.0 $\pm$ 2.2 & 34.8 $\pm$ 1.1 \\
+Threshold-grid minimum & 0.75 & 0.40 & 0.3038 $\pm$ 0.0144 & 0.7928 $\pm$ 0.0092 & 26.2 $\pm$ 2.8 & 39.2 $\pm$ 0.8 \\
+Threshold-grid maximum & 0.75 & 0.50 & 0.3090 $\pm$ 0.0074 & 0.7913 $\pm$ 0.0091 & 27.0 $\pm$ 2.2 & 34.6 $\pm$ 1.3 \\
+Archived weights & 1.00 & 0.50 & 0.3090 $\pm$ 0.0074 & 0.7913 $\pm$ 0.0091 & 27.0 $\pm$ 2.2 & 34.8 $\pm$ 1.1 \\
+Weight-sweep minimum & 1.00 & 0.50 & 0.1977 $\pm$ 0.0463 & 0.7225 $\pm$ 0.0216 & 16.2 $\pm$ 4.8 & 35.6 $\pm$ 2.5 \\
+Weight-sweep maximum & 1.00 & 0.50 & 0.3292 $\pm$ 0.0087 & 0.7985 $\pm$ 0.0047 & 30.0 $\pm$ 1.2 & 34.8 $\pm$ 1.5 \\
+\bottomrule
+\end{tabular}
+\tabnote{Values are mean $\pm$ sample SD over development seeds 0--4 with 30 MC-dropout passes. The archived result remains unchanged. The development maximum at $\gamma=0.05$ was frozen prospectively for the separate held-out comparison in Table~\ref{tab:gamma005-holdout}.}
+\end{table}

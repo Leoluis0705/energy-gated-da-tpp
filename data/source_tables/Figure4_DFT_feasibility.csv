@@ -1,0 +1,5 @@
+candidate,formation_energy_eV_per_atom,fmax_eV_per_A,volume_change_percent,shortest_distance_A,total_moment_muB_per_cell,pbe_u_gap_eV
+job_079 gen_1,-2.164905884,0.045128,2.918,1.917646,4.937,0.0035
+job_126 gen_0,-2.167618531,0.034407,-1.358,1.938847,4.922,0.0010
+job_196 gen_1,-2.033635033,0.033610,0.962,1.724317,4.864,0.0004
+job_234 gen_3,-2.033665270,0.044104,0.586,1.724466,4.864,0.0015

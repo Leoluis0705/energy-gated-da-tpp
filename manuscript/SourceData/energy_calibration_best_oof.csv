@@ -1,0 +1,11 @@
+model_id,source,method,candidate_id,m_element,observed_dft_energy_eV_atom,predicted_dft_energy_eV_atom,prediction_standard_deviation_eV_atom,prediction_interval_lower_95,prediction_interval_upper_95,outer_fold
+MACE-MP::composition_offset,MACE-MP,composition_offset,job_006_Mn_fe_-1.347_n4_generated_crystals_cif__gen_1,Mn,-1.843833140000001,-1.846061648620771,0.0130633820245947,-1.8622668700396527,-1.825245680465939,0
+MACE-MP::composition_offset,MACE-MP,composition_offset,job_011_Mg_fe_-1.305_n4_generated_crystals_cif__gen_0,Mg,-1.5107492264285711,-1.5244186197979372,0.0126248776014002,-1.5406238412168194,-1.5036026516431051,1
+MACE-MP::composition_offset,MACE-MP,composition_offset,job_044_Mn_fe_-0.936_n4_generated_crystals_cif__gen_1,Mn,-1.8710594871428567,-1.853328680102772,0.0120360850896591,-1.8695339015216537,-1.83251271194794,2
+MACE-MP::composition_offset,MACE-MP,composition_offset,job_083_Cr_fe_-0.935_n4_generated_crystals_cif__gen_1,Cr,-2.275868795714286,-2.2556122689406832,0.0114032064109299,-2.272873873443375,-2.238847606140572,3
+MACE-MP::composition_offset,MACE-MP,composition_offset,job_086_Mn_fe_-0.988_n4_generated_crystals_cif__gen_2,Mn,-1.845115954285715,-1.86061825270503,0.0122897938463771,-1.876823474123912,-1.8398022845501976,4
+MACE-MP::composition_offset,MACE-MP,composition_offset,job_101_Mg_fe_-1.339_n4_generated_crystals_cif__gen_1,Mg,-1.5460703649999996,-1.5324009716306333,0.0126248776014002,-1.5486061930495154,-1.5115850034758012,5
+MACE-MP::composition_offset,MACE-MP,composition_offset,job_120_Cr_fe_-1.424_n4_generated_crystals_cif__gen_1,Cr,-2.25603279,-2.2710477822617303,0.0121869112116753,-2.2842500052282664,-2.247228815654552,6
+MACE-MP::composition_offset,MACE-MP,composition_offset,job_136_Cr_fe_-1.181_n4_generated_crystals_cif__gen_0,Cr,-2.298536451428572,-2.2942708996818686,0.0130094700496546,-2.3113292314500917,-2.274308041876377,7
+MACE-MP::composition_offset,MACE-MP,composition_offset,job_204_Cr_fe_-0.932_n4_generated_crystals_cif__gen_3,Cr,-2.2835756557142863,-2.2670627817793223,0.0119915930377927,-2.2865705779851973,-2.249549388411483,8
+MACE-MP::composition_offset,MACE-MP,composition_offset,job_214_Cr_fe_-0.857_n4_generated_crystals_cif__gen_0,Cr,-2.248855041428572,-2.274875001622112,0.0101667089707486,-2.286695539648835,-2.25765901577402,9

@@ -1,0 +1,11 @@
+scope,location,search_method,result,original_relaxation_outcar_or_oszicar_found
+archive_candidate_evidence,materials_maintext_candidates/candidate_001..008,file inventory plus OUTCAR NSW check,retained OUTCAR/OSZICAR are static (NSW=0); eight relax.log files retained,False
+archive_server_mirror,tmp/dft_candidate_inventory/remote/vasp_inputs,recursive OUTCAR/OSZICAR inventory and comparison with retained copy,"server mirror contains the same post-static candidate outputs, not pre-static relaxation artifacts",False
+archive_bundles,outputs/dft_candidate_selection/dft_candidate_selection_bundle.tar.gz;outputs/dft_candidate_selection/final_dft_values_bundle.tar.gz;outputs/dft_candidate_selection/gga_u_values_bundle.tar.gz,tar member-name inventory without extraction,input bundle has no outputs; result bundles retain summaries/logs but no pilot relaxation OUTCAR/OSZICAR,False
+historical_repository,D:/CGCNN,"rg --files with OUTCAR, OSZICAR, relaxation-log, scheduler-log globs and candidate-ID text search",no pilot VASP OUTCAR/OSZICAR or candidate scheduler records found,False
+historical_remote_server,/root/dft_limo/outputs/dft_candidate_selection/vasp_inputs,local mirrored evidence only; no authenticated remote filesystem was mounted,live historical server directory not accessible in this workspace,False
+recycle_bin_current_user,D:/$Recycle.Bin/current-user-SID,recursive file inventory and binary metadata string search for candidate IDs and dft_limo,no relevant payload or original-path metadata hit,False
+recycle_bin_other_sids,D:/$Recycle.Bin/other-SIDs,read-only inventory attempt,access denied for three other SID directories; not searched,False
+baidu_sync,D:/BaiduSyncdisk,"rg --files with OUTCAR, OSZICAR, relaxation-log, and archive globs",no relevant file found,False
+onedrive,C:/Users/leoluis0705/OneDrive,"rg --files with OUTCAR, OSZICAR, relaxation-log, and archive globs",no relevant file found,False
+wps_sync,C:/Users/leoluis0705/WPS Cloud Files; C:/Users/leoluis0705/WPSDrive,"rg --files with OUTCAR, OSZICAR, relaxation-log, and archive globs",no relevant file found,False

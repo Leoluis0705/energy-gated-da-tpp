@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software or the accompanying data, please cite the archived release and the associated article."
+title: "Energy-Gated DA-TPP reproducibility repository"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Yueyang
+  - family-names: Liu
+    given-names: Jinxuan
+  - family-names: Li
+    given-names: Tianyu
+  - family-names: Xiong
+    given-names: Xiangxiru
+  - family-names: Zhang
+    given-names: Yingjie
+    orcid: "https://orcid.org/0009-0003-3796-4444"
+  - family-names: Tan
+    given-names: Baohua
+keywords:
+  - active learning
+  - generated crystals
+  - batch acquisition
+  - materials screening
+  - DFT feasibility

@@ -1,0 +1,24 @@
+{
+  "protocol_version": "egdatpp_psfix_v1",
+  "phase": "weight_calibration",
+  "dataset": "limo",
+  "allowed_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "allowed_methods": [
+    "energy_gated_da_tpp"
+  ],
+  "mc_passes": 30,
+  "M0": 0.75,
+  "G0": 0.5,
+  "group_key_mode": "element_system_current",
+  "group_key_map_relative_path": null,
+  "frozen": false,
+  "alpha": 0.1,
+  "beta": 0.2,
+  "gamma": 0.05
+}

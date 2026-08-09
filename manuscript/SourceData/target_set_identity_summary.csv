@@ -1,0 +1,9 @@
+method,checkpoint,n_seeds,unique_query_prefixes,unique_target_sets
+Energy-Gated DA-TPP,80,10,1,1
+Energy-Gated DA-TPP,160,10,1,1
+Energy-Gated DA-TPP,240,10,1,1
+Energy-Gated DA-TPP,320,10,10,1
+Predicted-Target Greedy,80,10,1,1
+Predicted-Target Greedy,160,10,1,1
+Predicted-Target Greedy,240,10,1,1
+Predicted-Target Greedy,320,10,10,1

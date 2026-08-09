@@ -1,0 +1,18 @@
+{
+  "task_version": "mn_mg_interval_gpu_smoke_v1",
+  "task_id": "mn_dft_anchored_proxy_m2p1_m1p9_w0p2_smoke",
+  "base_dataset": "limo",
+  "target_low": -2.1,
+  "target_high": -1.9,
+  "target_count": 126,
+  "pool_size": 640,
+  "budget": 8,
+  "batch_size": 4,
+  "rounds": 1,
+  "initial_set_size": 4,
+  "initial_sets_relative_path": "configs/mn_mg_initial_sets.csv",
+  "checkpoints": [4, 8],
+  "label_source": "frozen ALIGNN proxy formation energy; Mn DFT-anchored interval",
+  "hidden_evaluability_role": "post_selection_only",
+  "frozen": true
+}

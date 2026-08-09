@@ -1,0 +1,19 @@
+\begin{table}[!htbp]
+\centering
+\caption{Nested leave-one-out assessment of the DFT-evaluability classifiers.}
+\label{tab:evaluator-validation}
+\scriptsize
+\begin{tabular}{lrrrr}
+\toprule
+Model & ROC--AUC & Balanced accuracy & Brier score & Log loss \\
+\midrule
+Shallow gradient boosting & 0.820 & 0.700 & 0.183 & 0.545 \\
+Shallow random forest & 0.660 & 0.750 & 0.234 & 0.664 \\
+Regularized logistic regression & 0.540 & 0.600 & 0.258 & 0.713 \\
+Laplace logistic model & 0.460 & 0.600 & 0.282 & 0.766 \\
+\bottomrule
+\end{tabular}
+\tabnote{The development archive contains 20 DFT attempts, including 10
+strictly evaluable records. Preprocessing and model selection are performed
+inside each outer training fold.}
+\end{table}

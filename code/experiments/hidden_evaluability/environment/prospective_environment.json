@@ -1,0 +1,61 @@
+{
+  "snapshot_timestamp": "2026-07-27T20:14:39+08:00",
+  "checks": {
+    "pool_hash_ok": true,
+    "label_convention_ready": false,
+    "chgnet_available": true,
+    "secondary_mlip_available": false,
+    "gpu_compute_available": false,
+    "dft_server_idle": false,
+    "baseline_identity_resolved": true,
+    "cost_estimate_ready": false
+  },
+  "observations": {
+    "source_repository_branch": "audit/pool-surrogate-dft-baseline-root-cause",
+    "source_repository_commit": "3bcf598dfb0f71fd2393c9764a7e053fa07b1566",
+    "source_repository_dirty_entry_count": 19,
+    "execution_branch": "prospective-multifidelity-v1",
+    "pool_source_sha256": "7171701be18a7d391dfd58e15b12461fcb32f7db34395e6c785f7cfc6742ad1a",
+    "pool_canonical_sha256": "ab2a3c5d68d5cb3a7f119ba5b09a6ed59603e52f5c87acac8b8e306383d76f57",
+    "chgnet_version": "0.4.2",
+    "chgnet_model_version": "0.3.0",
+    "chgnet_checkpoint_sha256": "d14ab7c0f093efe64b60a7bcd540bca10e74fb7f46c86108a079af60524659d1",
+    "secondary_models": [],
+    "gpu_server_reachable": false,
+    "local_gpu_name": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+    "local_gpu_utilization_percent": 0,
+    "local_gpu_temperature_c": 54,
+    "local_gpu_memory_total_mib": 12227,
+    "local_gpu_memory_used_mib": 442,
+    "dft_server_cpu_quota": 32,
+    "dft_server_reported_memory_gib": 377,
+    "dft_running_job_count": 4,
+    "dft_allocated_cpu_cores": 32,
+    "dft_running_jobs": [
+      {
+        "candidate_id": "job_196_Cr_fe_-0.819_n4_generated_crystals_cif__gen_1",
+        "stage": "relax",
+        "elapsed": "02:21:19"
+      },
+      {
+        "candidate_id": "job_234_Cr_fe_-1.123_n4_generated_crystals_cif__gen_3",
+        "stage": "relax",
+        "elapsed": "02:21:19"
+      },
+      {
+        "candidate_id": "job_079_Cr_fe_-0.854_n4_generated_crystals_cif__gen_1",
+        "stage": "relax",
+        "elapsed": "02:21:19"
+      },
+      {
+        "candidate_id": "job_126_Cr_fe_-0.901_n4_generated_crystals_cif__gen_0",
+        "stage": "relax",
+        "elapsed": "02:21:19"
+      }
+    ],
+    "modulus_source_sha256": "1ebf3b8f9a941f29d59efcf3b97a5732dc6e37f0c43509804d22f986bb0247d9",
+    "gradient_norm_historical_key": "bs16_modulus",
+    "label_convention_note": "The DFT evaluation bands are frozen, but no two-model low-fidelity-to-DFT calibration mapping has been frozen.",
+    "cost_note": "No measured two-model 640-structure relaxation benchmark is available."
+  }
+}

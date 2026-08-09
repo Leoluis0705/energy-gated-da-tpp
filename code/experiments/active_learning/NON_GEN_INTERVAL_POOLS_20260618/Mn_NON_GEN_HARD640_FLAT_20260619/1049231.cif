@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_LaMnZnCrO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.33465879
+_cell_length_b   5.45356800
+_cell_length_c   7.66388944
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.23489491
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaMnZnCrO6
+_chemical_formula_sum   'La2 Mn2 Zn2 Cr2 O12'
+_cell_volume   222.96308277
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.00812700  0.96807200  0.74978600  1
+  La  La1  1  0.50812700  0.53192800  0.24978600  1
+  Mn  Mn2  1  0.49942800  0.00473400  0.99993300  1
+  Mn  Mn3  1  0.99942800  0.49526600  0.49993300  1
+  Zn  Zn4  1  0.48288200  0.45938600  0.74744000  1
+  Zn  Zn5  1  0.98288200  0.04061400  0.24744000  1
+  Cr  Cr6  1  0.49827300  0.00141000  0.49871500  1
+  Cr  Cr7  1  0.99827300  0.49859000  0.99871500  1
+  O  O8  1  0.07632900  0.45198800  0.25526200  1
+  O  O9  1  0.22716500  0.22082400  0.95035900  1
+  O  O10  1  0.21923700  0.22971300  0.55477800  1
+  O  O11  1  0.31311500  0.70145100  0.94240100  1
+  O  O12  1  0.30149200  0.69352000  0.55645700  1
+  O  O13  1  0.37394900  0.98034200  0.24486800  1
+  O  O14  1  0.57632900  0.04801200  0.75526200  1
+  O  O15  1  0.72716500  0.27917600  0.45036000  1
+  O  O16  1  0.71923700  0.27028700  0.05477800  1
+  O  O17  1  0.81311500  0.79854900  0.44240100  1
+  O  O18  1  0.80149200  0.80648000  0.05645700  1
+  O  O19  1  0.87394900  0.51965800  0.74486800  1

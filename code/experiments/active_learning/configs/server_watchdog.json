@@ -1,0 +1,60 @@
+{
+  "servers": {
+    "gpu": {
+      "role": "gpu",
+      "host": "connect.westc.seetacloud.com",
+      "port": 20735,
+      "user": "root",
+      "remote_python": "/root/miniconda3/bin/python",
+      "ssh_executable": "C:/WINDOWS/System32/OpenSSH/ssh.exe",
+      "ssh_key_path": "~/.ssh/codex_autodl_ed25519",
+      "known_hosts_path": "~/.ssh/known_hosts",
+      "root": "/root/autodl-tmp/Energy_Gated_DA_TPP_GPU_Audit/egdatpp_psfix_v1_formal_20260717T060658Z",
+      "manifest": "/root/autodl-tmp/Energy_Gated_DA_TPP_GPU_Audit/egdatpp_psfix_v1_formal_20260717T060658Z/jobs/gpu_threshold_top3_k30_20260717T160643Z.csv",
+      "manifest_pointer": "/root/autodl-tmp/Energy_Gated_DA_TPP_GPU_Audit/egdatpp_psfix_v1_formal_20260717T060658Z/jobs/ACTIVE_GPU_MANIFEST.txt",
+      "minimum_free_bytes": 10737418240,
+      "maximum_root_bytes": 12884901888,
+      "required_protocol_path": "/root/autodl-tmp/Energy_Gated_DA_TPP_GPU_Audit/egdatpp_psfix_v1_formal_20260717T060658Z/project/configs/frozen_final_protocol.yaml",
+      "auto_resume": true,
+      "controller": {
+        "python": "/root/miniconda3/bin/python",
+        "script": "/root/autodl-tmp/Energy_Gated_DA_TPP_GPU_Audit/egdatpp_psfix_v1_formal_20260717T060658Z/project/analysis/run_audited_job_queue.py",
+        "cwd": "/root/autodl-tmp/Energy_Gated_DA_TPP_GPU_Audit/egdatpp_psfix_v1_formal_20260717T060658Z/project",
+        "arguments": [
+          "--concurrency",
+          "3",
+          "--resource-kind",
+          "gpu",
+          "--sample-interval-seconds",
+          "10",
+          "--progress-interval-seconds",
+          "7200",
+          "--minimum-free-bytes",
+          "10737418240",
+          "--maximum-root-bytes",
+          "12884901888",
+          "--baseline-throughput-per-hour",
+          "11.211884719543109",
+          "--throughput-floor-fraction",
+          "0.70"
+        ]
+      }
+    },
+    "dft": {
+      "role": "dft",
+      "host": "connect.westb.seetacloud.com",
+      "port": 53416,
+      "user": "root",
+      "remote_python": "python3",
+      "ssh_executable": "C:/WINDOWS/System32/OpenSSH/ssh.exe",
+      "ssh_key_path": "~/.ssh/codex_autodl_ed25519",
+      "known_hosts_path": "~/.ssh/known_hosts",
+      "root": "/root/autodl-tmp/Energy_Gated_DA_TPP_DFT_Audit/egdatpp_psfix_v1_formal_20260717T060658Z",
+      "manifest": "/root/autodl-tmp/Energy_Gated_DA_TPP_DFT_Audit/egdatpp_psfix_v1_formal_20260717T060658Z/jobs/dft_jobs_manifest.csv",
+      "minimum_free_bytes": 10737418240,
+      "maximum_root_bytes": 10737418240,
+      "required_protocol_path": "/root/autodl-tmp/Energy_Gated_DA_TPP_DFT_Audit/egdatpp_psfix_v1_formal_20260717T060658Z/project/configs/dft_frozen_protocol.yaml",
+      "auto_resume": false
+    }
+  }
+}

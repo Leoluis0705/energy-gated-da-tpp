@@ -1,0 +1,25 @@
+{
+  "protocol_version": "egdatpp_psfix_v1",
+  "phase": "mc_dropout_development",
+  "dataset": "limo",
+  "allowed_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "allowed_methods": [
+    "interval_hit_greedy",
+    "energy_gated_da_tpp"
+  ],
+  "M0": 1.0,
+  "G0": 0.5,
+  "alpha": 0.1,
+  "beta": 0.2,
+  "gamma": 0.1,
+  "group_key_mode": "element_system_current",
+  "group_key_map_relative_path": null,
+  "frozen": false,
+  "mc_passes": 3
+}

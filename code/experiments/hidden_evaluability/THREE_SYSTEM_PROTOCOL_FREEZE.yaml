@@ -1,0 +1,143 @@
+protocol_version: three_system_low_data_multifidelity_v1
+frozen: true
+freeze_date: "2026-07-27"
+manuscript_edits_allowed: false
+
+source_inputs:
+  candidate_pool_master:
+    path: inputs/three_system/candidate_pool_master.csv
+    sha256: 7171701be18a7d391dfd58e15b12461fcb32f7db34395e6c785f7cfc6742ad1a
+  mlip_full_pool_results:
+    path: inputs/three_system/mlip_full_pool_results.csv
+    sha256: 37fc2a9ce0f7eb9c4d914b5f347f0c127a32754edb1bc38c06748f7fb7a51892
+  historical_dft_manifest:
+    path: dft/audit/dft_candidate_manifest.csv
+    sha256: ee48fdbc604da3e52eb3383bd07ace7a22926c388522f6feebfbdc98b5204f8c
+  recomputed_formation_energies:
+    path: results/post_submission_analysis/egdatpp_psfix_v1_20260719T031102Z/dft/recomputed_formation_energies.csv
+    sha256: 20f0e9f291dfef21d5d456c6c69e0da0e63cad6eeb3d3eb2aa7b38f2ce9de796
+
+pool:
+  included_elements: [Cr, Mn, Mg]
+  expected_counts:
+    Cr: 114
+    Mn: 127
+    Mg: 34
+    total: 275
+  historical_dft_count: 20
+  prospective_count: 255
+  historical_candidates_receive_prospective_credit: false
+
+dft_evaluability_label:
+  positive_requires:
+    - electronic_convergence
+    - ionic_convergence
+    - independent_static_completion
+    - reproducible_formation_energy
+  negative_includes:
+    - electronic_failure
+    - ionic_failure
+    - timeout_or_incomplete
+    - missing_independent_static
+    - nonreproducible_formation_energy
+  unverifiable_records: use_verifiable_subset_and_report
+
+high_fidelity_interval_eV_atom: [-2.3, -1.5]
+interval_role: secondary_endpoint
+primary_low_fidelity_objective:
+  - estimated_DFT_evaluability
+  - independent_structure_cluster_yield
+
+modeling:
+  evaluability_models:
+    - regularized_logistic
+    - laplace_bayesian_logistic
+    - shallow_gradient_boosting
+    - shallow_random_forest
+  outer_validation: leave_one_out
+  inner_validation: leave_one_out_on_outer_training_fold
+  primary_model_selection:
+    - lowest_LOO_log_loss
+    - lowest_LOO_brier_score
+    - simpler_model
+  candidate_probability_uncertainty: bootstrap_model_ensemble
+  prohibited_features:
+    - candidate_id
+    - historical_gate_rank
+    - historical_greedy_rank
+    - historical_gate_round
+    - historical_greedy_round
+    - target_label
+  formation_energy_sources: [ALIGNN, CHGNet, MACE-MP, dual_MLIP_ensemble]
+  formation_energy_models:
+    - composition_offset
+    - regularized_linear_calibration
+    - bayesian_ridge_ensemble
+  formation_energy_validation: leave_one_out_with_residual_bootstrap
+  interval_must_not_move_after_calibration: true
+
+retrospective_replay:
+  interpretation: low_fidelity_ML_assisted_simulation_only
+  paired_seeds: [15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+  batch_size: 16
+  query_budget: 160
+  checkpoints: [16, 32, 64, 80, 160]
+  update_frequency: every_batch
+  pseudo_oracle:
+    evaluability: one_shared_Bernoulli_draw_per_candidate_and_seed
+    formation_energy: one_shared_predictive_draw_per_candidate_and_seed
+    paired_across_methods: true
+  candidate_score_bootstrap_draws: 200
+  per_round_proxy_bootstrap_draws: 10
+  baselines:
+    - random_sampling
+    - predicted_target_greedy
+    - dft_evaluable_greedy
+    - mc_uncertainty_only
+    - explore_core_set
+    - gradient_norm_hybrid
+    - mlip_energy_greedy
+    - composition_only
+    - group_gated_da_tpp
+  ablations:
+    - always_correction
+    - group_only
+    - margin_only
+    - full_gate
+  historical_alias:
+    modulus: gradient_norm_hybrid
+  gate:
+    composition_concentration_threshold: 0.50
+    predictive_margin_threshold: 0.10
+    correction_frontier_multiplier: 3
+    primary_utility_weights:
+      DFT_evaluability: 0.70
+      interval_hit: 0.30
+
+prospective_dft:
+  selection_horizon_queries: 32
+  maximum_unique_candidates: 12
+  required_elements: [Cr, Mn, Mg]
+  composition_matching: largest_remainder_on_prospective_pool
+  structure_complexity_matching: atom_count_then_space_group_then_candidate_id
+  every_baseline_represented: true
+  shared_candidates_computed_once: true
+  include_existing_running_jobs_as_future_feedback: true
+  do_not_stop_existing_jobs: true
+  automatic_expansion_allowed: false
+  submit_only_if:
+    - candidate_freeze_tests_pass
+    - server_resources_are_available
+    - no_conflict_with_existing_jobs
+    - cost_estimate_is_recorded
+
+reporting:
+  separate_columns:
+    - estimated_low_fidelity_yield
+    - observed_high_fidelity_yield
+  primary_future_metric: true_DFT_evaluable_unique_candidates_vs_core_hours_HF_AUC
+  do_not_claim:
+    - ML_pseudolabels_are_true_DFT
+    - formation_energy_interval_is_engineering_optimal
+    - retrospective_replay_is_prospective_validation
+    - model_advantage_when_CV_is_near_random

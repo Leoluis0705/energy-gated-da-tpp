@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       LiTi2O4
+_chemical_formula_sum              "Li1 Ti2 O4"
+_cell_length_a       2.95954165720726
+_cell_length_b       2.9567209800250915
+_cell_length_c       9.905900001525879
+_cell_angle_alpha    90.0495282023434
+_cell_angle_beta     89.98525612545947
+_cell_angle_gamma    120.12708814682829
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.9883634448051453  0.42257425189018255  0.9166736602783203  1.0000
+  Ti  Ti1       1.0  0.3239394724369049  0.0890100821852684  0.6729825139045715  1.0000
+  Ti  Ti2       1.0  0.9886953234672546  0.42230474948883057  0.18296149373054504  1.0000
+  O   O1        1.0  0.9902265667915344  0.4227146506309509  0.5776147246360779  1.0000
+  O   O2        1.0  0.6561528444290161  0.7559329867362976  0.2822408378124237  1.0000
+  O   O3        1.0  0.32193711400032043  0.09007755666971208  0.06612838804721832  1.0000
+  O   O4        1.0  0.656653106212616  0.7561535835266113  0.7954872250556946  1.0000

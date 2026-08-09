@@ -1,0 +1,15 @@
+{
+  "python": "3.11.9",
+  "packages": {
+    "ase": "3.29.0",
+    "chgnet": "0.4.2",
+    "numpy": "2.2.6",
+    "pandas": "3.0.3",
+    "pymatgen": "2026.5.4",
+    "scipy": "1.17.1",
+    "torch": "2.11.0+cu128"
+  },
+  "cuda_available": true,
+  "local_device": "NVIDIA GeForce RTX 5070 Ti Laptop GPU",
+  "missing_required_secondary_mlip": true
+}

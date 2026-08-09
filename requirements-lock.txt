@@ -1,0 +1,14 @@
+matplotlib==3.11.1
+numpy==2.2.6
+pandas==3.0.3
+paramiko==3.5.1
+Pillow==12.2.0
+pymatgen==2026.5.4
+PyMuPDF==1.27.2.3
+pytest==9.0.3
+PyYAML==6.0.3
+scikit-learn==1.9.0
+scipy==1.17.1
+torch==2.11.0+cu128
+tqdm==4.67.3
+

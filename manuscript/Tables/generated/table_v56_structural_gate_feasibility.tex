@@ -1,0 +1,31 @@
+\begin{table}[H]
+\centering
+\caption{Held-out structural-group feasibility results across two frozen proxy windows.}
+\label{tab:s-structural-feasibility}
+\scriptsize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrr}
+\toprule
+Proxy task & Method & Normalized AUTC & Recovery@80 & Target clusters@80 & Expected evaluable@80 \\
+\midrule
+Mn-dominated & Predicted-Target Greedy & $0.7406\pm0.0176$ & 68.6 & 14.0 & 34.16 \\
+& Legacy element-group Gate & $0.7172\pm0.0158$ & 59.6 & 14.2 & 30.13 \\
+& Structural-Group Gate & $0.7445\pm0.0131$ & 68.4 & 15.0 & 34.19 \\
+& Structural-Group Gate + Q95 & $0.7431\pm0.0147$ & 68.4 & 15.0 & 34.19 \\
+& Gradient-Norm Hybrid & $0.7294\pm0.0197$ & 63.0 & 16.6 & 31.49 \\
+\midrule
+Mg-anchored mixed Cr/Mg & Predicted-Target Greedy & $0.6716\pm0.0107$ & 71.6 & 12.6 & 50.92 \\
+& Legacy element-group Gate & $0.6923\pm0.0458$ & 65.2 & 11.2 & 47.16 \\
+& Structural-Group Gate & $0.6875\pm0.0238$ & 70.6 & 12.8 & 50.07 \\
+& Structural-Group Gate + Q95 & $0.6722\pm0.0139$ & 70.6 & 12.8 & 50.07 \\
+& Gradient-Norm Hybrid & $0.7188\pm0.0287$ & 68.2 & 13.6 & 48.34 \\
+\bottomrule
+\end{tabular}}
+\tabnote{Values are means across five genuinely different initial labelled sets;
+AUTC is shown as mean $\pm$ sample standard deviation. The Mn-dominated interval
+$[-2.1,-1.9]$ eV atom$^{-1}$ contains 126 proxy targets (120 Mn, four Mg, and
+two Cr). The Mg-anchored interval $[-2.3,-2.1]$ eV atom$^{-1}$ contains 139
+targets (112 Cr and 27 Mg) and is therefore a mixed Cr/Mg task rather than an
+Mg-only confirmation. Expected evaluable values are post-selection model
+estimates and were not supplied to any selector.}
+\end{table}
