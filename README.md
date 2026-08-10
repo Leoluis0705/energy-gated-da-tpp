@@ -95,6 +95,8 @@ respectively).
 
 ## Citation and licensing
 
-Citation metadata are provided in `CITATION.cff`. The public release must not be
-created until the authors approve the code and data licenses. No license is
-implied by the absence of a `LICENSE` file.
+Citation metadata are provided in `CITATION.cff`. Source code is licensed under
+the MIT License in `LICENSE`. Except where noted otherwise, data tables, source
+data, figures, manuscript materials, and documentation are licensed under
+CC BY 4.0 as described in `DATA_LICENSE.md`. VASP executables, POTCAR/PAW
+datasets, and other license-restricted materials are not distributed.

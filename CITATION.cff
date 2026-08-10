@@ -2,6 +2,10 @@ cff-version: 1.2.0
 message: "If you use this software or the accompanying data, please cite the archived release and the associated article."
 title: "Energy-Gated DA-TPP reproducibility repository"
 type: software
+license: MIT
+repository-code: "https://github.com/Leoluis0705/energy-gated-da-tpp"
+version: 1.0.0
+date-released: 2026-08-10
 authors:
   - family-names: Zhang
     given-names: Yueyang

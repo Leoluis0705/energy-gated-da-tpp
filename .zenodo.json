@@ -2,6 +2,8 @@
   "title": "Energy-Gated DA-TPP reproducibility repository",
   "upload_type": "software",
   "description": "Frozen code, data, manuscript sources, and validation assets for Energy-Gated DA-TPP batch active learning in generated crystal pools.",
+  "license": "other-open",
+  "version": "1.0.0",
   "creators": [
     {"name": "Zhang, Yueyang"},
     {"name": "Liu, Jinxuan"},
@@ -19,4 +21,3 @@
   ],
   "access_right": "open"
 }
-
