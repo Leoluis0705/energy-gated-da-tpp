@@ -21,6 +21,7 @@ REQUIRED = (
     "manuscript/SourceData/Gamma005HoldoutAnalysis/v60_gamma005_holdout_per_seed.csv",
     "code/experiments/active_learning/checkpoint_formation_clean.pth.tar",
     "code/experiments/active_learning/configs/frozen_final_protocol.yaml",
+    "code/experiments/active_learning/configs/frozen_protocols/egdatpp_psfix_v1/limo_gamma005_heldout.yaml",
     "code/experiments/hidden_evaluability/THREE_SYSTEM_PROTOCOL_FREEZE.yaml",
     "code/experiments/dft_audit/candidate_pool_master.csv",
 )

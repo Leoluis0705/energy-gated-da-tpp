@@ -1,5 +1,7 @@
+import hashlib
 import json
 from dataclasses import replace
+from pathlib import Path
 
 import pandas as pd
 import pytest
@@ -10,6 +12,16 @@ from experiments.reproducibility.formal_protocol import (
     resolve_group_keys_from_map,
 )
 from experiments.reproducibility.two_dataset_paired_protocol import dataset_configs
+
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+MAIN_EVALUATION_PROTOCOL = (
+    PROJECT_ROOT
+    / "configs/frozen_protocols/egdatpp_psfix_v1/limo_gamma005_heldout.yaml"
+)
+MAIN_EVALUATION_PROTOCOL_SHA256 = (
+    "1e1002fcd528df18a961d0c841db0c8b30222a46392ad9295a18b6b5f5d961fa"
+)
 
 
 def write_protocol(tmp_path, **overrides):
@@ -47,6 +59,35 @@ def test_protocol_overrides_only_declared_acquisition_parameters(tmp_path):
         group_key_construction="element_system_current",
     )
     assert protocol.sha256
+
+
+def test_main_evaluation_protocol_matches_archived_gate_greedy_runs():
+    protocol = load_formal_protocol(MAIN_EVALUATION_PROTOCOL)
+
+    assert protocol.phase == "formal_evaluation"
+    assert protocol.dataset == "limo"
+    assert protocol.allowed_seeds == tuple(range(15, 25))
+    assert protocol.allowed_methods == (
+        "energy_gated_da_tpp",
+        "predicted_target_greedy",
+    )
+    assert protocol.mc_passes == 30
+    assert protocol.M0 == 1.0
+    assert protocol.G0 == 0.5
+    assert protocol.alpha == 0.1
+    assert protocol.beta == 0.2
+    assert protocol.gamma == 0.05
+    assert protocol.frozen is True
+    assert hashlib.sha256(MAIN_EVALUATION_PROTOCOL.read_bytes()).hexdigest() == (
+        MAIN_EVALUATION_PROTOCOL_SHA256
+    )
+
+    base = dataset_configs()["limo"]
+    for method in protocol.allowed_methods:
+        for seed in protocol.allowed_seeds:
+            resolved = protocol.resolve_dataset_config(base, method=method, seed=seed)
+            assert resolved.mc_passes == 30
+            assert resolved.gamma == 0.05
 
 
 @pytest.mark.parametrize(
